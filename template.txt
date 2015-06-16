@@ -1,0 +1,47 @@
+NAME: <name of capability>
+
+DESCRIPTION: <text description of capability>
+
+DYNAMIC: true | false
+
+SUPPORTS RUNTIME ONLY: true | false
+
+SERVICES PROVIDED:
+
+  CLASS: <fully qualified class name of value type of an MSC Service provided by the capability>
+  MODULE: [name of module that provides the class]
+
+  CLASS: <fully qualified class name of value type of an MSC Service provided by the capability>
+  MODULE: [name of module that provides the class]
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A | <fully qualified class name of class that provides a custom API for interacting with the capability>
+  MODULE: N/A | [name of module that provides the class]
+
+HARD REQUIREMENTS:
+
+  NAME: <static portion of the name of a capability>
+  DYNAMIC: true | false
+
+  NAME: <static portion of the name of a capability>
+  DYNAMIC: true | false
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: <static portion of the name of a capability>
+  DYNAMIC: true | false
+  DESCRIPTION: <some comment on what makes this requirement optional>
+
+  NAME: <static portion of the name of a capability>
+  DYNAMIC: true | false
+  DESCRIPTION: <some comment on what makes this requirement optional>
+
+RUNTIME ONLY REQUIREMENTS:
+
+  NAME: <name of a capability>
+  DESCRIPTION: <some comment on what makes this requirement optional>
+
+  NAME: <static portion of the name of a capability>
+  DYNAMIC: true | false
+  DESCRIPTION: <some comment on what makes this requirement optional>
