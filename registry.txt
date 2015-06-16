@@ -1,0 +1,2 @@
+org.wildfly.network.outbound-socket-binding
+org.wildfly.network.socket-binding

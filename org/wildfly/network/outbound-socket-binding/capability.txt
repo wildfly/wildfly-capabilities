@@ -1,0 +1,25 @@
+NAME: org.wildfly.network.outbound-socket-binding
+
+DESCRIPTION: Provides configuration information for a client socket.
+
+DYNAMIC: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICES PROVIDED:
+
+  CLASS: org.jboss.as.network.OutboundSocketBinding
+  MODULE: org.jboss.as.network
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.network.socket-binding
+  DYNAMIC: true
+  DESCRIPTION: Some outbound socket binding configurations are designed to specify how to connect to a server socket opened by the 
+               process providing outbound-socket-binding capability. In this case the server socket configuration information is 
+               obtained by depending on a org.wildfly.network.socket-binding capability.

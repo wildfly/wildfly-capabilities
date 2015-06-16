@@ -1,0 +1,17 @@
+NAME: org.wildfly.network.socket-binding
+
+DESCRIPTION: Provides configuration information for a server socket.
+
+DYNAMIC: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICES PROVIDED:
+
+  CLASS: org.jboss.as.network.SocketBinding
+  MODULE: org.jboss.as.network
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A
