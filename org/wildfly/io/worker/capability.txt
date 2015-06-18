@@ -1,0 +1,17 @@
+NAME: org.wildfly.io.worker
+
+DESCRIPTION: Provides workers for I/O channel notification.
+
+DYNAMIC: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICES PROVIDED:
+
+  CLASS: org.xnio.XnioWorker
+  MODULE: org.jboss.xnio
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A

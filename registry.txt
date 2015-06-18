@@ -1,2 +1,11 @@
+org.wildfly.io.buffer-pool
+org.wildfly.io.worker
+org.wildfly.management.http_interface
+org.wildfly.management.jmx
+org.wildfly.management.jmx.remote
+org.wildfly.management.native_interface
 org.wildfly.network.outbound-socket-binding
 org.wildfly.network.socket-binding
+org.wildfly.remoting.connector
+org.wildfly.remoting.endpoint
+org.wildfly.remoting.outbound-connection

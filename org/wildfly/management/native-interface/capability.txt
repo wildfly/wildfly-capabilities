@@ -1,0 +1,22 @@
+NAME: org.wildfly.management.native-interface
+
+DESCRIPTION: Allows remote management of the process using JBoss Remoting
+
+DYNAMIC: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICES PROVIDED:
+
+  CLASS: N/A
+  MODULE: N/A
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.network.socket-binding
+  DYNAMIC: true

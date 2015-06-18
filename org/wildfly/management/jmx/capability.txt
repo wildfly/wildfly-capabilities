@@ -1,0 +1,17 @@
+NAME: org.wildfly.management.jmx
+
+DESCRIPTION: Provides integration with the process' JMX MBeanServer
+
+DYNAMIC: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICES PROVIDED:
+
+  CLASS: javax.management.MBeanServer
+  MODULE: JRE
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A

@@ -1,0 +1,28 @@
+NAME: org.wildfly.management.jmx.remote
+
+DESCRIPTION: Provides access to the process' MBeanServer over a JSR-166 connection
+
+DYNAMIC: false
+
+SUPPORTS RUNTIME ONLY: true | false
+
+SERVICES PROVIDED:
+
+  CLASS: N/A
+  MODULE: N/A
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.management.jmx
+  DYNAMIC: false
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.remoting.endpoint
+  DYNAMIC: false
+  DESCRIPTION: The JSR-166 connector can optionally use the general purpose remoting endpoint used for most non-management remoting needs

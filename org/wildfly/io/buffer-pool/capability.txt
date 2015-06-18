@@ -1,0 +1,17 @@
+NAME: org.wildfly.io.buffer-pool
+
+DESCRIPTION: Provides pooled of java.nio.ByteBuffer instances
+
+DYNAMIC: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICES PROVIDED:
+
+  CLASS: org.xnio.Pool<java.nio.ByteBuffer>
+  MODULE: org.jboss.xnio
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A

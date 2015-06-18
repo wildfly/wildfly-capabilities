@@ -1,0 +1,25 @@
+NAME: org.wildfly.remoting.connector
+
+DESCRIPTION: Provides a server socket able to handle connections from clients that use JBoss Remoting protocols
+
+DYNAMIC: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICES PROVIDED:
+
+  CLASS: N/A
+  MODULE: N/A
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.remoting.endpoint
+  DYNAMIC: false
+
+  NAME: org.wildfly.network.socket-binding
+  DYNAMIC: true

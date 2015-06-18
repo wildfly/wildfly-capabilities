@@ -1,0 +1,22 @@
+NAME: org.jboss.remoting.endpoint
+
+DESCRIPTION: Provides a JBoss Remoting endpoint, a potential participant in a JBoss Remoting communications relationship.
+
+DYNAMIC: false
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICES PROVIDED:
+
+  CLASS: org.jboss.remoting3.Endpoint
+  MODULE: org.jboss.remoting
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.io.worker
+  DYNAMIC: true

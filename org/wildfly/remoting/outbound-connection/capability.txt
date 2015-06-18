@@ -1,0 +1,22 @@
+NAME: org.wildfly.remoting.outbound-connection
+
+DESCRIPTION: Provides an outbound connection
+
+DYNAMIC: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICES PROVIDED:
+
+  CLASS: org.jboss.as.remoting.AbstractOutboundConnectionService
+  MODULE: org.jboss.as.remoting 
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A 
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.network.outbound-socket-binding
+  DYNAMIC: true
