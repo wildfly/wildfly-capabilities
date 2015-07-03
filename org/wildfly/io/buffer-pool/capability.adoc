@@ -2,6 +2,11 @@ NAME: org.wildfly.io.buffer-pool
 
 DESCRIPTION: Provides pooled of java.nio.ByteBuffer instances
 
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
 DYNAMIC: true
 
 SUPPORTS RUNTIME ONLY: false

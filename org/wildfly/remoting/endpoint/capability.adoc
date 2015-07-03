@@ -2,6 +2,11 @@ NAME: org.jboss.remoting.endpoint
 
 DESCRIPTION: Provides a JBoss Remoting endpoint, a potential participant in a JBoss Remoting communications relationship.
 
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
 DYNAMIC: false
 
 SUPPORTS RUNTIME ONLY: true

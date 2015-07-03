@@ -2,6 +2,11 @@ NAME: org.wildfly.remoting.connector
 
 DESCRIPTION: Provides a server socket able to handle connections from clients that use JBoss Remoting protocols
 
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
 DYNAMIC: true
 
 SUPPORTS RUNTIME ONLY: false

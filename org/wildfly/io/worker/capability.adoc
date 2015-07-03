@@ -2,6 +2,11 @@ NAME: org.wildfly.io.worker
 
 DESCRIPTION: Provides workers for I/O channel notification.
 
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
 DYNAMIC: true
 
 SUPPORTS RUNTIME ONLY: false

@@ -2,6 +2,11 @@ NAME: org.wildfly.management.http-interface
 
 DESCRIPTION: Allows remote management of the process over HTTP
 
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
 DYNAMIC: false
 
 SUPPORTS RUNTIME ONLY: false

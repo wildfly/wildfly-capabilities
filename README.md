@@ -93,11 +93,14 @@ NAME: The name of the capability. See above.
 
 DESCRIPTION: A free form description of the capability
 
-REGISTERED BY: Name of the project that is responsible for the integration contract exposed by the capability. There may be multiple projects that provide an implementation the capability, but there should be a single project responsible for the capability's contract. The contract is defined by the capability.adoc file and by the Java API of any classes referenced in the "SERVICES PROVIDED" and "CUSTOM INTEGRATION API" sections below. Preferably this section will include a URL for the project.
+REGISTERED BY: Information about the project that is responsible for the integration contract exposed by the capability. There may be multiple projects that provide an implementation the capability, but there should be a single project responsible for the capability's contract. The contract is defined by the capability.adoc file and by the Java API of any classes referenced in the "SERVICE PROVIDED" and "CUSTOM INTEGRATION API" sections below. The following information should be provided:
+
+* NAME: The name of the project
+* URL: A useful URL. Perhaps a general project URL, perhaps one for relevant source code (e.g. a github repo)
 
 DYNAMIC: True if the capability is dynamically named; false otherwise.
 
-SUPPORTS RUNTIME ONLY: True if the capability can be depended upon by another capability as a runtime-only requirement. Must be 'false' if DYNAMIC is 'true' or a CUSTOM INTEGRATION API is specified.
+SUPPORTS RUNTIME ONLY: True if the capability can be depended upon by another capability as a runtime-only requirement. Must be 'false' if DYNAMIC is 'true'.
 
 SERVICE PROVIDED: Information about an MSC service registered by the capability which can be depended upon or injected by other capabilities, if there are any. 
 

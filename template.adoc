@@ -2,6 +2,11 @@ NAME: <name of capability>
 
 DESCRIPTION: <text description of capability>
 
+REGISTERED BY:
+  
+  NAME: <name of project>
+  URL:  <a useful URL>
+
 DYNAMIC: true | false
 
 SUPPORTS RUNTIME ONLY: true | false

@@ -2,6 +2,11 @@ NAME: org.wildfly.remoting.outbound-connection
 
 DESCRIPTION: Provides an outbound connection
 
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
 DYNAMIC: true
 
 SUPPORTS RUNTIME ONLY: false

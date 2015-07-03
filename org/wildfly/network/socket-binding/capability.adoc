@@ -2,6 +2,11 @@ NAME: org.wildfly.network.socket-binding
 
 DESCRIPTION: Provides configuration information for a server socket.
 
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
 DYNAMIC: true
 
 SUPPORTS RUNTIME ONLY: false
