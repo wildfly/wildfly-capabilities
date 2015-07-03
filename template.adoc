@@ -6,7 +6,7 @@ DYNAMIC: true | false
 
 SUPPORTS RUNTIME ONLY: true | false
 
-SERVICES PROVIDED:
+SERVICE PROVIDED:
 
   CLASS: <fully qualified class name of value type of an MSC Service provided by the capability>
   MODULE: [name of module that provides the class]

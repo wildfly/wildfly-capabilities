@@ -6,7 +6,7 @@ DYNAMIC: false
 
 SUPPORTS RUNTIME ONLY: false
 
-SERVICES PROVIDED:
+SERVICE PROVIDED:
 
   CLASS: javax.management.MBeanServer
   MODULE: JRE

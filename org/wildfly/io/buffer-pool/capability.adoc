@@ -6,7 +6,7 @@ DYNAMIC: true
 
 SUPPORTS RUNTIME ONLY: false
 
-SERVICES PROVIDED:
+SERVICE PROVIDED:
 
   CLASS: org.xnio.Pool<java.nio.ByteBuffer>
   MODULE: org.jboss.xnio

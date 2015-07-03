@@ -6,7 +6,7 @@ DYNAMIC: true
 
 SUPPORTS RUNTIME ONLY: false
 
-SERVICES PROVIDED:
+SERVICE PROVIDED:
 
   CLASS: org.jboss.as.network.OutboundSocketBinding
   MODULE: org.jboss.as.network

@@ -2,7 +2,7 @@ WildFly Capabilities
 ====================
 http://wildfly.org
 
-This project provides the central registry of descriptive information about capabilities accessible via the management layer of a WildFly Core based process. The intent is to provide a central location where capability developers can go to learn about other capabilities available in the WildFly ecosystem and to advertise their capability. Must importantly, registering capabilities helps ensure that different capabilities won't use the same name.
+This project provides the central registry of descriptive information about capabilities accessible via the management layer of a WildFly Core based process. The intent is to provide a central location where capability developers can go to learn about other capabilities available in the WildFly ecosystem and to advertise their capability. Most importantly, registering capabilities helps ensure that different capabilities won't use the same name.
 
 Building
 ------------------
@@ -46,9 +46,9 @@ All dynamically named capabilities that have the same static portion of their na
 Services provided by a capability
 ---------------------------------
 
-Typically a capability functions by registering services with the WildFly process' MSC ServiceContainer, and then dependent capabilities depend on those services. The WildFly Core management layer orchestrates registration of those services and service dependencies by providing a means to discover service names.
+Typically a capability functions by registering a service with the WildFly process' MSC ServiceContainer, and then dependent capabilities depend on that service. The WildFly Core management layer orchestrates registration of those services and service dependencies by providing a means to discover service names.
 
-The capability.adoc entry for a capability should provide information about services made available by the capability, if there are any.
+The capability.adoc entry for a capability should provide information about the service made available by the capability, if there is one.
 
 Custom integration APIs provided by a capability
 ------------------------------------------------
@@ -79,8 +79,10 @@ Not all capabilities are usable as a runtime-only requirement, and the capabilit
 
 Any dynamically named capability is not usable as a runtime-only requirement.
 
-A capability that supports runtime-only usage must ensure that it never removes its runtime services except via a full process reload.
+For a capability to support use as a runtime-only requirement, it must guarantee that a configuration change to a running process the removes the capability will not impact currently running capabilities that have a runtime-only requirement for it. This means:
 
+* A capability that supports runtime-only usage must ensure that it never removes its runtime service except via a full process reload.
+* A capability that exposes a custom integration API generally is not usable as a runtime-only requirement. If such a capability does support use as a runtime-only requirement, it must ensure that any functionality provided via its integration API remains available as long as a full process reload has not occurred.
 
 Contents of capability.adoc
 --------------------------
@@ -95,9 +97,9 @@ REGISTERED BY: Name of the project that is responsible for the integration contr
 
 DYNAMIC: True if the capability is dynamically named; false otherwise.
 
-SUPPORTS RUNTIME ONLY: True if the capability can be depended upon by another capability as a runtime-only requirement. Must be 'false' if DYNAMIC is 'true'
+SUPPORTS RUNTIME ONLY: True if the capability can be depended upon by another capability as a runtime-only requirement. Must be 'false' if DYNAMIC is 'true' or a CUSTOM INTEGRATION API is specified.
 
-SERVICES PROVIDED: Information about MSC services registered by the capability which can be depended upon or injected by other capabilities, if there are any. For each such service the following should be provided: 
+SERVICE PROVIDED: Information about an MSC service registered by the capability which can be depended upon or injected by other capabilities, if there are any. 
 
 * CLASS: The fully qualified class name of the value type of the MSC Service
 * MODULE: The name of the jboss-modules module that typically provides the class
