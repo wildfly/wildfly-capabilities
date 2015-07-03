@@ -15,7 +15,7 @@ Structure of the Registry
 The registry consists of two primary elements:
 
 * a single text file in the root of the repository, 'registry.txt' which is a simple alphabetically ordered list of capability names. This file provides a single location where users can quickly learn the names of available capabilities
-* a filesystem tree where the tree structure corresponds to the names of the capabilities. Each leaf in the tree is a 'capability.txt' file which includes standard information describing a particular capability. The 'template.txt' file in the root of the repository shows the standard format of a capability.txt file.
+* a filesystem tree where the tree structure corresponds to the names of the capabilities. Each leaf in the tree is a 'capability.adoc' file which includes standard information describing a particular capability. The 'template.adoc' file in the root of the repository shows the standard format of a capability.adoc file.
 
 Capabilities
 -------------------
@@ -34,28 +34,28 @@ Capability names are simple strings, with the dot character serving as a separat
 
 The 'org.wildfly' namespace is reserved for projects associated with the WildFly organization on github (https://github.com/wildfly)
 
-The structure of this repository is based on the structure of capability names. The name is split based on the dot character and then each section becomes a directory in the repository. Each directory whose path from the repository root represents a complete capability name then includes a capability.txt file describing that capability.
+The structure of this repository is based on the structure of capability names. The name is split based on the dot character and then each section becomes a directory in the repository. Each directory whose path from the repository root represents a complete capability name then includes a capability.adoc file describing that capability.
 
 Statically vs Dynamically Named Capabilities
 --------------------------------------------
 
 The full name of a capability is either statically known, or it may include a statically known base element and then a dynamic element. The dynamic part of the name is determined at runtime based on the address of the management resource that registers the capability. For example, the management resource at the address '/socket-binding-group=standard-sockets/socket-binding=web' will register a dynamically named capability named 'org.wildlfy.network.socket-binding.web'. The 'org.wildlfy.network.socket-binding' portion is the static part of the name.
 
-All dynamically named capabilities that have the same static portion of their name should provide a consistent feature set and set of requirements. The entry in this registry should be for the static part of the capability name. So, for the socket-binding example above, the registry.txt file would include a line for 'org.wildlfy.network.socket-binding' and the repository would include a capability.txt file at location org/wildfly/network/socket-binding/capability.txt.
+All dynamically named capabilities that have the same static portion of their name should provide a consistent feature set and set of requirements. The entry in this registry should be for the static part of the capability name. So, for the socket-binding example above, the registry.txt file would include a line for 'org.wildlfy.network.socket-binding' and the repository would include a capability.adoc file at location org/wildfly/network/socket-binding/capability.adoc.
 
 Services provided by a capability
 ---------------------------------
 
 Typically a capability functions by registering services with the WildFly process' MSC ServiceContainer, and then dependent capabilities depend on those services. The WildFly Core management layer orchestrates registration of those services and service dependencies by providing a means to discover service names.
 
-The capability.txt entry for a capability should provide information about services made available by the capability, if there are any.
+The capability.adoc entry for a capability should provide information about services made available by the capability, if there are any.
 
 Custom integration APIs provided by a capability
 ------------------------------------------------
 
 Instead of or in addition to providing MSC services, a capability may expose some other API to dependent capabilities. This API must be encapsulated in a single class (although that class can use other non-JRE classes as method parameters or return types).
 
-The capability.txt entry for a capability should provide information about the custom integration API made available by the capability, if there is one.
+The capability.adoc entry for a capability should provide information about the custom integration API made available by the capability, if there is one.
 
 Capability Requirements
 ------------------------
@@ -70,28 +70,28 @@ There are three basic types of requirements a capability may have:
 
 Hard and optional requirements may be for either statically named or dynamically named capabilities. Runtime-only requirements can only be for statically named capabilities, as such a requirement cannot be specified via configuration, and without configuration the dynamic part of the required capability name is unknown.
 
-The capability.txt entry for a capability should provide information about capability requirements, if there are any.
+The capability.adoc entry for a capability should provide information about capability requirements, if there are any.
 
 Supporting runtime-only requirements
 ------------------------------------
 
-Not all capabilities are usable as a runtime-only requirement, and the capability.txt entry for a capability should express this.
+Not all capabilities are usable as a runtime-only requirement, and the capability.adoc entry for a capability should express this.
 
 Any dynamically named capability is not usable as a runtime-only requirement.
 
 A capability that supports runtime-only usage must ensure that it never removes its runtime services except via a full process reload.
 
 
-Contents of capability.txt
+Contents of capability.adoc
 --------------------------
 
-The following is information describing the contents of a capability.txt file. See the template.txt file in the repository root for context.
+The following is information describing the contents of a capability.adoc file. See the template.adoc file in the repository root for context.
 
 NAME: The name of the capability. See above.
 
 DESCRIPTION: A free form description of the capability
 
-REGISTERED BY: Name of the project that is responsible for the integration contract exposed by the capability. There may be multiple projects that provide an implementation the capability, but there should be a single project responsible for the capability's contract. The contract is defined by the capability.txt file and by the Java API of any classes referenced in the "SERVICES PROVIDED" and "CUSTOM INTEGRATION API" sections below. Preferably this section will include a URL for the project.
+REGISTERED BY: Name of the project that is responsible for the integration contract exposed by the capability. There may be multiple projects that provide an implementation the capability, but there should be a single project responsible for the capability's contract. The contract is defined by the capability.adoc file and by the Java API of any classes referenced in the "SERVICES PROVIDED" and "CUSTOM INTEGRATION API" sections below. Preferably this section will include a URL for the project.
 
 DYNAMIC: True if the capability is dynamically named; false otherwise.
 
