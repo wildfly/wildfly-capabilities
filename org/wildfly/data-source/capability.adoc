@@ -1,0 +1,22 @@
+NAME: org.wildfly.data-source
+
+DESCRIPTION: Provides a data source
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: javax.sql.DataSource
+  MODULE: javax.api
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A

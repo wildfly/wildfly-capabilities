@@ -1,3 +1,4 @@
+org.wildfly.data-source
 org.wildfly.io.buffer-pool
 org.wildfly.io.worker
 org.wildfly.management.http_interface
