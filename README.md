@@ -100,6 +100,8 @@ REGISTERED BY: Information about the project that is responsible for the integra
 
 DYNAMIC: True if the capability is dynamically named; false otherwise.
 
+PRIVATE: True if the capability should not be used outside of its respective codebase; false otherwise.
+
 SUPPORTS RUNTIME ONLY: True if the capability can be depended upon by another capability as a runtime-only requirement. Must be 'false' if DYNAMIC is 'true'.
 
 SERVICE PROVIDED: Information about an MSC service registered by the capability which can be depended upon or injected by other capabilities, if there are any. 

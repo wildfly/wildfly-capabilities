@@ -9,6 +9,8 @@ REGISTERED BY:
 
 DYNAMIC: true | false
 
+PRIVATE: true | false
+
 SUPPORTS RUNTIME ONLY: true | false
 
 SERVICE PROVIDED:
