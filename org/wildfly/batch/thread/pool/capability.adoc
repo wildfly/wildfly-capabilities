@@ -1,0 +1,24 @@
+NAME: org.wildfly.batch.thread.pool
+
+DESCRIPTION: Provides a thread-pool executor for batch jobs. This executor is used to submit batch job tasks and ensure the thread-pool doesn't exhaust the available threads for partitioned jobs.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jberet.spi.JobExecutor
+  MODULE: org.jberet.jberet-core
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A

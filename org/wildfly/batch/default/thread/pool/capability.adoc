@@ -1,0 +1,24 @@
+NAME: org.wildfly.batch.default.thread.pool
+
+DESCRIPTION: Provides a default thread-pool executor for batch jobs. The default thread-pool is used to assign the executor to deployments that do not use a deployment descriptor to define the thread-pool to use.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jberet.spi.JobExecutor
+  MODULE: org.jberet.jberet-core
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A

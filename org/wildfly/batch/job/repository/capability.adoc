@@ -1,0 +1,24 @@
+NAME: org.wildfly.batch.job.repository
+
+DESCRIPTION: Provides a job repository used to store information about executed batch jobs.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jberet.spi.JobExecutor
+  MODULE: org.jberet.jberet-core
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
