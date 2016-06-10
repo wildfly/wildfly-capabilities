@@ -1,0 +1,24 @@
+NAME: org.wildfly.clustering.singleton.default-policy
+
+DESCRIPTION: Abstraction from which to build singleton MSC services.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.clustering.singleton.SingletonPolicy
+  MODULE: org.wildfly.clustering.singleton
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
