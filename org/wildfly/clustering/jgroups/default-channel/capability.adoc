@@ -1,0 +1,24 @@
+NAME: org.wildfly.clustering.jgroups.default-channel
+
+DESCRIPTION: Provides the default connected JGroups channel.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jgroups.Channel
+  MODULE: org.jgroups
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
