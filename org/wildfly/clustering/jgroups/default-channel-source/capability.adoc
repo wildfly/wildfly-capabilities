@@ -1,0 +1,24 @@
+NAME: org.wildfly.clustering.jgroups.channel
+
+DESCRIPTION: Provides the factory from which the default JGroups channel was created.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.clustering.jgroups.ChannelFactory
+  MODULE: org.wildfly.clustering.jgroups.api
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
