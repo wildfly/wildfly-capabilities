@@ -84,6 +84,15 @@ For a capability to support use as a runtime-only requirement, it must guarantee
 * A capability that supports runtime-only usage must ensure that it never removes its runtime service except via a full process reload.
 * A capability that exposes a custom integration API generally is not usable as a runtime-only requirement. If such a capability does support use as a runtime-only requirement, it must ensure that any functionality provided via its integration API remains available as long as a full process reload has not occurred.
 
+Private capabilities
+--------------------
+
+A capability can be private if the project that registers it does not wish its services or custom integration API to be depended upon by others. Any service or custom integration API exposed by the capability can be changed at any time and it is not necessary to record information in this registry about such services or integration API. However, the capability itself should be recorded, including descriptive information about what it does and what requirements it may have. 
+
+Private capabilities are useful because only a capability can depend upon another capability and use its services and integration API.  "Anonymous" code cannot require capabilities because that would result in users not being able to determine what functionality would be lost if a required capability were removed. However, just because code wishes to use another capability and is willing to register itself as doing so doesn't mean it is willing to publish a contract that other, unknown capabilities can rely upon.
+
+Private capabilities are allowed to provide services or a custom integration API for use by other capabilities controlled by the maintainer of the private capability. However the private capability implementation is free to change those at any time. This kind of usage scenario is analogous to typical use of package-protected Java methods.
+
 Contents of capability.adoc
 --------------------------
 
@@ -100,7 +109,7 @@ REGISTERED BY: Information about the project that is responsible for the integra
 
 DYNAMIC: True if the capability is dynamically named; false otherwise.
 
-PRIVATE: True if the capability should not be used outside of its respective codebase; false otherwise.
+PRIVATE: True if the capability should not be used outside of its respective codebase; false otherwise. If true, any SERVICE PROVIDED or CUSTOM INTEGRATION API information provided is purely informational and is subject to change at any time.
 
 SUPPORTS RUNTIME ONLY: True if the capability can be depended upon by another capability as a runtime-only requirement. Must be 'false' if DYNAMIC is 'true'.
 
