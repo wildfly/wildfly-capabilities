@@ -1,0 +1,29 @@
+NAME: org.wildfly.jsr77
+
+DESCRIPTION: JSR-77 Support
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: N/A 
+  MODULE: N/A
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.management.jmx
+  DYNAMIC: false
