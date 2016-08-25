@@ -12,4 +12,5 @@ org.wildfly.network.socket-binding
 org.wildfly.remoting.connector
 org.wildfly.remoting.endpoint
 org.wildfly.remoting.outbound-connection
+org.wildfly.request-controller
 org.wildfly.sar-deployment
