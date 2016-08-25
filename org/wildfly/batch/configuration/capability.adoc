@@ -1,0 +1,24 @@
+NAME: org.wildfly.batch.configuration
+
+DESCRIPTION: Provides information for the batch runtime about the default job repository, default thread pool and whether or not batch jobs should be restarted if they were stopped during a suspend operation.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.batch.jberet.BatchConfiguration
+  MODULE: org.wildfly.extension.batch.jberet
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
