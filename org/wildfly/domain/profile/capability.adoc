@@ -1,0 +1,30 @@
+NAME: org.wildfly.domain.profile
+
+DESCRIPTION: A WildFly managed domain profile configuration. A profile is a set of related subsystem configurations that the servers in one or more server groups can use.
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: N/A 
+  MODULE: N/A
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.domain.profile
+  DYNAMIC: true
+  DESCRIPTION: One profile can include, and thus require, another profile

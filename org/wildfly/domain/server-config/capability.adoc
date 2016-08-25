@@ -1,0 +1,35 @@
+NAME: org.wildfly.domain.server-config
+
+DESCRIPTION: A WildFly managed domain server launch configuration. Used by the Host Controller as its configuration for whether and how to manage a particular server.
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: N/A 
+  MODULE: N/A
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.domain.server-group
+  DYNAMIC: true
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.domain.socket-binding-group
+  DYNAMIC: true
+  DESCRIPTION: A server config can optionally require a socket binding group that is different from the one required by its server group

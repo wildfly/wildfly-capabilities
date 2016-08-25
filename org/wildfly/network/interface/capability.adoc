@@ -1,0 +1,22 @@
+NAME: org.wildfly.network.interface
+
+DESCRIPTION: Provides configuration information for a network address.
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.network.NetworkInterfaceBinding
+  MODULE: org.jboss.as.network
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A

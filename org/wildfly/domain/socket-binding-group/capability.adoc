@@ -1,0 +1,30 @@
+NAME: org.wildfly.domain.socket-binding-group
+
+DESCRIPTION: A WildFly managed domain socket binding group configuration. A socket binding group is a set of related server or outbound socket configurations.
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: N/A 
+  MODULE: N/A
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.domain.socket-binding-group
+  DYNAMIC: true
+  DESCRIPTION: One socket binding group can include, and thus require, another socket binding group

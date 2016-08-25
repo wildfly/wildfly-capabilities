@@ -1,0 +1,29 @@
+NAME: org.wildfly.sar-deployment
+
+DESCRIPTION: Ability to deploy JMX-based Service Archive (.sar) deployments
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: N/A 
+  MODULE: N/A
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.management.jmx
+  DYNAMIC: false
