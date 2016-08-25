@@ -1,4 +1,8 @@
 org.wildfly.data-source
+org.wildfly.domain.profile
+org.wildfly.domain.server-config
+org.wildfly.domain.server-group
+org.wildfly.domain.socket-binding-group
 org.wildfly.io.buffer-pool
 org.wildfly.io.max-threads
 org.wildfly.io.worker
