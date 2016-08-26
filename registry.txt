@@ -24,6 +24,7 @@ org.wildfly.management.http_interface
 org.wildfly.management.jmx
 org.wildfly.management.jmx.remote
 org.wildfly.management.native_interface
+org.wildfly.messaging.activemq.server
 org.wildfly.network.interface
 org.wildfly.network.outbound-socket-binding
 org.wildfly.network.socket-binding
