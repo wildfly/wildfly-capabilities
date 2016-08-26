@@ -42,3 +42,4 @@ org.wildfly.remoting.endpoint
 org.wildfly.remoting.outbound-connection
 org.wildfly.request-controller
 org.wildfly.sar-deployment
+org.wildfly.undertow.listener
