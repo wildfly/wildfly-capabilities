@@ -1,0 +1,31 @@
+NAME: 	org.wildfly.security.http-authentication-factory
+
+DESCRIPTION: HTTP authentication policy.
+
+REGISTERED BY:
+  
+  NAME: WildFly Elytron Subsystem
+  URL:  https://github.com/wildfly-security/elytron-subsystem
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.security.auth.server.HttpAuthenticationFactory
+  MODULE: org.wildfly.security.elytron
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+OPTIONAL REQUIREMENTS:
+
+RUNTIME ONLY REQUIREMENTS:
+
