@@ -5,9 +5,11 @@ org.wildfly.batch.job.repository
 org.wildfly.batch.thread.pool
 org.wildfly.clustering.jgroups.channel
 org.wildfly.clustering.jgroups.channel-factory
+org.wildfly.clustering.jgroups.channel-module
 org.wildfly.clustering.jgroups.channel-source
 org.wildfly.clustering.jgroups.default-channel
 org.wildfly.clustering.jgroups.default-channel-factory
+org.wildfly.clustering.jgroups.default-channel-module
 org.wildfly.clustering.jgroups.default-channel-source
 org.wildfly.clustering.singleton.default-policy
 org.wildfly.clustering.singleton.policy
