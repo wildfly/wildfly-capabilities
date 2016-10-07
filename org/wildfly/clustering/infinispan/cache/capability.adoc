@@ -1,0 +1,24 @@
+NAME: org.wildfly.clustering.infinispan.cache
+
+DESCRIPTION: Provides an Infinispan cache.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.infinispan.Cache
+  MODULE: org.infinispan
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
