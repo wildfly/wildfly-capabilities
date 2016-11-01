@@ -1,0 +1,24 @@
+NAME: org.wildfly.clustering.infinispan.key-affinity-factory
+
+DESCRIPTION: Provides a factory for creating a key affinity service.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.clustering.infinispan.spi.affinity.KeyAffinityServiceFactory
+  MODULE: org.wildfly.clustering.infinispan.spi
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A

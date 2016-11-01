@@ -1,0 +1,24 @@
+NAME: org.wildfly.clustering.infinispan.default-cache
+
+DESCRIPTION: Provides the default cache of an Infinispan cache container.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.infinispan.Cache
+  MODULE: org.infinispan
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
