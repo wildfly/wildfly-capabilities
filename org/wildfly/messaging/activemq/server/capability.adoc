@@ -1,0 +1,23 @@
+NAME: org.wildfly.messaging.activemq.server
+
+DESCRIPTION: Provides integration with embedded ActiveMQ Artemis messaging broker.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: N/A
+  MODULE: N/A
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.management.jmx
+  DYNAMIC: false
+  DESCRIPTION: Allow registration of Artemis' own MBeans if the JMX MBeanServer is provided.
