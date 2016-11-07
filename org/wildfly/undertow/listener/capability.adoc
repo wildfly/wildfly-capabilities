@@ -1,0 +1,30 @@
+NAME: org.wildfly.undertow.listener
+
+DESCRIPTION: Provides an Undertow listener
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.io.worker
+  DYNAMIC: true
+
+  NAME: org.wildfly.io.buffer-pool
+  DYNAMIC: true
+
+  NAME: org.wildfly.network.socket-binding
+  DYNAMIC: true
