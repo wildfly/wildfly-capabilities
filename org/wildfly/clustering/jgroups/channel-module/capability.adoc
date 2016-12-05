@@ -1,0 +1,24 @@
+NAME: org.wildfly.clustering.jgroups.channel-module
+
+DESCRIPTION: Provides a module associated with a JGroups channel.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.modules.Module
+  MODULE: org.jboss.modules
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
