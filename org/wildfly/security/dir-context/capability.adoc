@@ -15,8 +15,8 @@ SUPPORTS RUNTIME ONLY: false
 
 SERVICE PROVIDED:
 
-  CLASS: org.wildfly.common.function.ExceptionSupplier<javax.naming.directory.DirContext, javax.naming.NamingException>
-  MODULE: org.wildfly.common, javax.api
+  CLASS: org.wildfly.extension.elytron.capabilities.DirContextSupplier
+  MODULE: org.wildfly.extension.elytron
 
 CUSTOM RUNTIME API:
 

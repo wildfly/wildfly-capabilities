@@ -15,8 +15,8 @@ SUPPORTS RUNTIME ONLY: false
 
 SERVICE PROVIDED:
 
-  CLASS: org.wildfly.security.SecurityFactory<org.wildfly.security.credential.Credential>
-  MODULE: org.wildfly.security.elytron
+  CLASS: org.wildfly.extension.elytron.capabilities.CredentialSecurityFactory
+  MODULE: org.wildfly.extension.elytron
 
 CUSTOM RUNTIME API:
 
