@@ -30,6 +30,7 @@ org.wildfly.io.max-threads
 org.wildfly.io.worker
 org.wildfly.jsr77
 org.wildfly.management.deployment-scanner
+org.wildfly.management.executor
 org.wildfly.management.http_interface
 org.wildfly.management.jmx
 org.wildfly.management.jmx.remote
