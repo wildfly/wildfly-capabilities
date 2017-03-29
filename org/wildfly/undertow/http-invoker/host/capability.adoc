@@ -31,3 +31,9 @@ OPTIONAL REQUIREMENTS:
   NAME: org.wildfly.security.http-authentication-factory
   DYNAMIC: true
   DESCRIPTION: Needed when configured via http-authentication-factory attribute
+
+RUNTIME ONLY REQUIREMENTS:
+
+  NAME: org.wildfly.mod_cluster
+  DYNAMIC: false
+  DESCRIPTION: Depends on mod cluster when mod cluster is installed in system

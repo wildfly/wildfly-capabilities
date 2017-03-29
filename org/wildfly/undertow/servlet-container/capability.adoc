@@ -9,7 +9,7 @@ REGISTERED BY:
 
 DYNAMIC: true
 
-PRIVATE: false
+PRIVATE: true
 
 SUPPORTS RUNTIME ONLY: true
 

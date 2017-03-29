@@ -9,7 +9,7 @@ REGISTERED BY:
 
 DYNAMIC: true
 
-PRIVATE: false
+PRIVATE: true
 
 SUPPORTS RUNTIME ONLY: true
 
@@ -25,7 +25,7 @@ HARD REQUIREMENTS:
 
 RUNTIME ONLY REQUIREMENTS:
 
-  NAME: org.wildfly.server
+  NAME: org.wildfly.undertow.server
   DYNAMIC: true
   DESCRIPTION: Server to which host belongs
 
