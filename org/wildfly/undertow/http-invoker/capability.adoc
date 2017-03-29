@@ -1,0 +1,19 @@
+NAME: org.wildfly.undertow.http-invoker
+
+DESCRIPTION: Entry point for remote http invoker, supporting ejb over http
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: io.undertow.server.handlers.PathHandler
+  MODULE: io.undertow.core

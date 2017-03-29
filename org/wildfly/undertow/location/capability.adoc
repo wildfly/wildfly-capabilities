@@ -1,0 +1,29 @@
+NAME: org.wildfly.undertow.location
+
+DESCRIPTION: Provides location handler inside host
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: io.undertow.server.HttpHandler
+  MODULE: io.undertow.core
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.undertow
+  DYNAMIC: false
+
+RUNTIME ONLY REQUIREMENTS:
+
+  NAME: org.wildfly.host
+  DESCRIPTION: Host to which this location belongs

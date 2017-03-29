@@ -1,0 +1,24 @@
+NAME: org.wildfly.undertow.servlet-container
+
+DESCRIPTION: Undertow's servlet container service
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.undertow.ServletContainerService
+  MODULE: org.wildfly.extension.undertow
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.undertow
+  DYNAMIC: false

@@ -1,0 +1,33 @@
+NAME: org.wildfly.undertow.http-invoker.host
+
+DESCRIPTION: Http invoker host configuration
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+   CLASS: org.wildfly.extension.undertow.HttpInvokerHostService
+   MODULE: org.wildfly.extension.undertow
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.wildfly.http-invoker
+  DYNAMIC: false
+
+  NAME: org.wildfly.undertow.host
+  DYNAMIC: true
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.security.http-authentication-factory
+  DYNAMIC: true
+  DESCRIPTION: Needed when configured via http-authentication-factory attribute

@@ -42,4 +42,15 @@ org.wildfly.remoting.endpoint
 org.wildfly.remoting.outbound-connection
 org.wildfly.request-controller
 org.wildfly.sar-deployment
+org.wildfly.undertow
 org.wildfly.undertow.listener
+org.wildfly.undertow.server
+org.wildfly.undertow.host
+org.wildfly.undertow.location
+org.wildfly.extension.undertow.handler
+org.wildfly.undertow.mod_cluster_filter
+org.wildfly.undertow.servlet-container
+org.wildfly.undertow.http-invoker
+org.wildfly.undertow.http-invoker.host
+org.wildfly.undertow.application-security-domain
+org.wildfly.undertow.reverse-proxy.host

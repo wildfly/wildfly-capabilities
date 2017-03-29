@@ -1,0 +1,35 @@
+NAME: org.wildfly.undertow.server
+
+DESCRIPTION: Undertow web server instance, that can contain multiple hosts
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.undertow.Server
+  MODULE: org.wildfly.extension.undertow
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.undertow
+  DYNAMIC: false
+
+RUNTIME ONLY REQUIREMENTS:
+
+  NAME: org.wildfly.server
+  DYNAMIC: true
+  DESCRIPTION: Server to which host belongs
+
+  NAME: org.wildfly.servlet-container
+  DYNAMIC: true
+  DESCRIPTION: Servlet container that this server uses
+

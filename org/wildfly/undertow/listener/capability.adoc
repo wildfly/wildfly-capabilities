@@ -13,10 +13,10 @@ PRIVATE: false
 
 SUPPORTS RUNTIME ONLY: false
 
-SERVICE PROVIDED:
+CUSTOM RUNTIME API:
 
-  CLASS: N/A
-  MODULE: N/A
+  CLASS: org.wildfly.extension.undertow.UndertowListener
+  MODULE: org.wildfly.extension.undertow
 
 HARD REQUIREMENTS:
 
@@ -28,3 +28,16 @@ HARD REQUIREMENTS:
 
   NAME: org.wildfly.network.socket-binding
   DYNAMIC: true
+
+  NAME: org.wildfly.undertow.server
+  DYNAMIC: true
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.security.ssl-context
+  DYNAMIC: true
+  DESCRIPTION: SSL context in case SSL is configured.
+
+  NAME: org.wildfly.network.socket-binding
+  DYNAMIC: true
+  DESCRIPTION: Used only if redirect-socket is defined

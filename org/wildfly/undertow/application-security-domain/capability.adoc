@@ -1,0 +1,26 @@
+NAME: org.wildfly.undertow.application-security-domain
+
+DESCRIPTION: Provides the mapping from a security domain as specified in a web application
+              to an HttpAuthenticationFactory plus additional policy information.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+   CLASS: java.util.function.BiFunction<DeploymentInfo, Function<String, RunAsIdentityMetaData>, Registration>
+   MODULE: JRE, java.util
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.security.http-authentication-factory
+  DYNAMIC: true
+
