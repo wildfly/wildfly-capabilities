@@ -1,6 +1,6 @@
-NAME: org.wildfly.undertow.location
+NAME: org.wildfly.undertow.host.access-log
 
-DESCRIPTION: Provides location handler inside host
+DESCRIPTION: Provides access log inside a host
 
 REGISTERED BY:
 
@@ -15,8 +15,8 @@ SUPPORTS RUNTIME ONLY: true
 
 SERVICE PROVIDED:
 
-  CLASS: io.undertow.server.HttpHandler
-  MODULE: io.undertow.core
+  CLASS: org.wildfly.extension.undertow.AccessLogService
+  MODULE: org.wildfly.extension.undertow
 
 HARD REQUIREMENTS:
 

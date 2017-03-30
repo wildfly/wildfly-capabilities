@@ -46,7 +46,8 @@ org.wildfly.undertow
 org.wildfly.undertow.listener
 org.wildfly.undertow.server
 org.wildfly.undertow.host
-org.wildfly.undertow.location
+org.wildfly.undertow.host.location
+org.wildfly.undertow.host.access-log
 org.wildfly.extension.undertow.handler
 org.wildfly.undertow.mod_cluster_filter
 org.wildfly.undertow.servlet-container

@@ -29,3 +29,7 @@ RUNTIME ONLY REQUIREMENTS:
   DYNAMIC: true
   DESCRIPTION: Server to which host belongs
 
+  NAME: org.wildfly.request-controller
+  DYNAMIC: false
+  DESCRIPTION: Request controller if available in system
+
