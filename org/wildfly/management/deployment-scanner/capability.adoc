@@ -1,0 +1,32 @@
+NAME: org.wildfly.management.deployment-scanner
+
+DESCRIPTION: Provides a scanner to detect changes in a filesystem directory and based on those changes deploy or undeploy applications located in that directory.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: N/A
+  MODULE: N/A
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.management.path
+  DYNAMIC: true
+
+  NAME: org.wildfly.management.path-manager
+  DYNAMIC: false
