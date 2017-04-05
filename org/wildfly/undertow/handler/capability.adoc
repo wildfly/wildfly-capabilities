@@ -1,0 +1,25 @@
+NAME: org.wildfly.undertow.handler
+
+DESCRIPTION: Provides an Undertow handler that can be used to server files or other resources
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: io.undertow.server.HttpHandler
+  MODULE: io.undertow.core
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.request-controller
+  DYNAMIC: false
+  DESCRIPTION: only needed if request controller for graceful shutdown is enabled

@@ -1,0 +1,43 @@
+NAME: org.wildfly.undertow.listener
+
+DESCRIPTION: Provides an Undertow listener
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+CUSTOM RUNTIME API:
+
+  CLASS: org.wildfly.extension.undertow.UndertowListener
+  MODULE: org.wildfly.extension.undertow
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.io.worker
+  DYNAMIC: true
+
+  NAME: org.wildfly.io.buffer-pool
+  DYNAMIC: true
+
+  NAME: org.wildfly.network.socket-binding
+  DYNAMIC: true
+
+  NAME: org.wildfly.undertow.server
+  DYNAMIC: true
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.security.ssl-context
+  DYNAMIC: true
+  DESCRIPTION: SSL context in case SSL is configured.
+
+  NAME: org.wildfly.network.socket-binding
+  DYNAMIC: true
+  DESCRIPTION: Used only if redirect-socket is defined

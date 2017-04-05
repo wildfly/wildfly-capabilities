@@ -1,0 +1,34 @@
+NAME: org.wildfly.undertow.reverse-proxy.host
+
+DESCRIPTION: Reverse proxy host configuration
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+CUSTOM RUNTIME API:
+
+  CLASS: org.wildfly.extension.undertow.handlers.ReverseProxyHostService
+  MODULE: org.wildfly.extension.undertow
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.extension.undertow.handler
+  DYNAMIC: true
+
+  NAME: org.wildfly.network.outbound-socket-binding
+  DYNAMIC: true
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.security.ssl-context
+  DYNAMIC: true
+  DESCRIPTION: SSL context in case SSL is configured.
+

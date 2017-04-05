@@ -1,0 +1,19 @@
+NAME: org.wildfly.web.common.host
+
+DESCRIPTION: Common web host interface to be used by subsystems that need to deploy any web related context
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.web.host.WebHost
+  MODULE: org.jboss.as.web-common
