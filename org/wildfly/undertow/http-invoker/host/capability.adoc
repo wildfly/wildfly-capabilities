@@ -15,8 +15,8 @@ SUPPORTS RUNTIME ONLY: true
 
 SERVICE PROVIDED:
 
-   CLASS: org.wildfly.extension.undertow.HttpInvokerHostService
-   MODULE: org.wildfly.extension.undertow
+   CLASS: N/A
+   MODULE: N/A
 
 HARD REQUIREMENTS:
 
