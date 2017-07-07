@@ -1,0 +1,27 @@
+NAME: org.wildfly.mod_cluster
+
+DESCRIPTION: Main mod cluster capability
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.undertow.listener
+  DYNAMIC: true
+
+  NAME: org.wildfly.security.ssl-context
+  DYNAMIC: true

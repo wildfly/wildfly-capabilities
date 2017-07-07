@@ -61,3 +61,16 @@ org.wildfly.security.security-factory-credential
 org.wildfly.security.security-realm
 org.wildfly.security.ssl-context
 org.wildfly.security.trust-managers
+org.wildfly.undertow
+org.wildfly.undertow.listener
+org.wildfly.undertow.server
+org.wildfly.undertow.host
+org.wildfly.undertow.host.location
+org.wildfly.undertow.host.access-log
+org.wildfly.extension.undertow.handler
+org.wildfly.undertow.mod_cluster_filter
+org.wildfly.undertow.servlet-container
+org.wildfly.undertow.http-invoker
+org.wildfly.undertow.http-invoker.host
+org.wildfly.undertow.application-security-domain
+org.wildfly.undertow.reverse-proxy.host

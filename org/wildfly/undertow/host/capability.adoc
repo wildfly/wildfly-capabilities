@@ -1,0 +1,35 @@
+NAME: org.wildfly.undertow.host
+
+DESCRIPTION: Undertow web server host interface, main entry point for applications & context to be bound to
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.undertow.Host
+  MODULE: org.wildfly.extension.undertow
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.undertow
+  DYNAMIC: false
+
+RUNTIME ONLY REQUIREMENTS:
+
+  NAME: org.wildfly.undertow.server
+  DYNAMIC: true
+  DESCRIPTION: Server to which host belongs
+
+  NAME: org.wildfly.request-controller
+  DYNAMIC: false
+  DESCRIPTION: Request controller if available in system
+

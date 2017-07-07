@@ -1,0 +1,33 @@
+NAME: org.wildfly.undertow.mod_cluster-filter
+
+DESCRIPTION: Mod cluster filter
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.undertow.filters.FilterService
+  MODULE: org.wildfly.extension.undertow
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.network.socket-binding
+  DYNAMIC: true
+
+  NAME: org.wildfly.io.worker
+  DYNAMIC: true
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.security.ssl-context
+  DYNAMIC: true
+  DESCRIPTION: SSL context in case SSL is configured.

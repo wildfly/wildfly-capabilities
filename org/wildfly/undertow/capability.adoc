@@ -1,0 +1,19 @@
+NAME: org.wildfly.undertow
+
+DESCRIPTION: Undertow entry point capability, main service
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.undertow.UndertowService
+  MODULE: org.wildfly.extension.undertow

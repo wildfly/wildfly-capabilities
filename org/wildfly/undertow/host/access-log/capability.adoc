@@ -1,0 +1,29 @@
+NAME: org.wildfly.undertow.host.access-log
+
+DESCRIPTION: Provides access log inside a host
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.undertow.AccessLogService
+  MODULE: org.wildfly.extension.undertow
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.undertow
+  DYNAMIC: false
+
+RUNTIME ONLY REQUIREMENTS:
+
+  NAME: org.wildfly.host
+  DESCRIPTION: Host to which this location belongs
