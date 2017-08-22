@@ -4,8 +4,8 @@ DESCRIPTION: Server side HTTP authentication mechanism factory.
 
 REGISTERED BY:
   
-  NAME: WildFly Elytron Subsystem
-  URL:  https://github.com/wildfly-security/elytron-subsystem
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
 
 DYNAMIC: true
 
