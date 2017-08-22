@@ -1,6 +1,6 @@
 NAME: org.wildfly.security.http-server-mechanism-factory
 
-DESCRIPTION: Server side HTTP authentication mechanism factory.
+DESCRIPTION: Factory for the server side HTTP authentication mechanisms.
 
 REGISTERED BY:
   

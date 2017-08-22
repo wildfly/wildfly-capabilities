@@ -1,6 +1,6 @@
-NAME: org.wildfly.security.key-managers
+NAME: org.wildfly.security.trust-manager
 
-DESCRIPTION: An array of KeyManager instances.
+DESCRIPTION: A JSSE TrustManager.
 
 REGISTERED BY:
   
@@ -15,7 +15,7 @@ SUPPORTS RUNTIME ONLY: false
 
 SERVICE PROVIDED:
 
-  CLASS: javax.net.ssl.KeyManager[]
+  CLASS: javax.net.ssl.TrustManager
   MODULE: javax.api
 
 CUSTOM RUNTIME API:

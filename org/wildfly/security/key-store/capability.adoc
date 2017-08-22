@@ -20,11 +20,6 @@ SERVICE PROVIDED:
 
 CUSTOM RUNTIME API:
 
-  CLASS: N/A | <fully qualified class name of class that provides a custom API for interacting with the capability>
-  MODULE: N/A | [name of module that provides the class]
-
-CUSTOM RUNTIME API:
-
   CLASS: N/A
   MODULE: N/A
 

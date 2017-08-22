@@ -1,6 +1,6 @@
-NAME: org.wildfly.security.role-decoder
+NAME: org.wildfly.security.key-manager
 
-DESCRIPTION: A decoder to identify the roles for an identity.
+DESCRIPTION: A JSSE KeyManager.
 
 REGISTERED BY:
   
@@ -15,8 +15,8 @@ SUPPORTS RUNTIME ONLY: false
 
 SERVICE PROVIDED:
 
-  CLASS: org.wildfly.security.authz.RoleDecoder
-  MODULE: org.wildfly.security.elytron
+  CLASS: javax.net.ssl.KeyManager
+  MODULE: javax.api
 
 CUSTOM RUNTIME API:
 

@@ -1,6 +1,6 @@
-NAME: org.wildfly.security.trust-managers
+NAME: org.wildfly.security.policy
 
-DESCRIPTION: An array of TrustManager instances.
+DESCRIPTION: A JACC security Policy.
 
 REGISTERED BY:
   
@@ -15,7 +15,7 @@ SUPPORTS RUNTIME ONLY: false
 
 SERVICE PROVIDED:
 
-  CLASS: javax.net.ssl.TrustManager[]
+  CLASS: java.security.Policy
   MODULE: javax.api
 
 CUSTOM RUNTIME API:

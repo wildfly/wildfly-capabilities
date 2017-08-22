@@ -1,6 +1,6 @@
 NAME: org.wildfly.security.realm-mapper
 
-DESCRIPTION: An Elytron RealmMapper.
+DESCRIPTION: A mapper to map from a Principal or evidence to the name of the realm.
 
 REGISTERED BY:
   

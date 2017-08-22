@@ -1,0 +1,31 @@
+NAME: org.wildfly.security.security-event-listener
+
+DESCRIPTION: A listener for security events emited by a SecurityDomain, typically used for auditing.
+
+REGISTERED BY:
+  
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.elytron.capabilities._private.SecurityEventListener
+  MODULE: org.wildfly.extension.elytron
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+OPTIONAL REQUIREMENTS:
+
+RUNTIME ONLY REQUIREMENTS:
+

@@ -1,6 +1,6 @@
-NAME: org.wildfly.security.credential-store-client
+NAME: org.wildfly.security.policy
 
-DESCRIPTION: A CredentialStore client for retrieving a credential from the referenced store.
+DESCRIPTION: A Java security Policy.
 
 REGISTERED BY:
   
@@ -15,8 +15,8 @@ SUPPORTS RUNTIME ONLY: false
 
 SERVICE PROVIDED:
 
-  CLASS: org.jboss.as.controller.security.CredentialStoreClient
-  MODULE: org.wildfly.security.elytron
+  CLASS: java.security.Policy
+  MODULE: javax.api
 
 CUSTOM RUNTIME API:
 

@@ -1,6 +1,6 @@
-NAME: org.wildfly.security.role-decoder
+NAME: org.wildfly.security.permission-mapper
 
-DESCRIPTION: A decoder to identify the roles for an identity.
+DESCRIPTION: A mapper to map permissions for an identity.
 
 REGISTERED BY:
   
@@ -15,7 +15,7 @@ SUPPORTS RUNTIME ONLY: false
 
 SERVICE PROVIDED:
 
-  CLASS: org.wildfly.security.authz.RoleDecoder
+  CLASS: org.wildfly.security.authz.PermissionMapper
   MODULE: org.wildfly.security.elytron
 
 CUSTOM RUNTIME API:

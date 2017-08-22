@@ -1,6 +1,6 @@
-NAME: org.wildfly.security.role-decoder
+NAME: org.wildfly.security.authentication-context
 
-DESCRIPTION: A decoder to identify the roles for an identity.
+DESCRIPTION: A collection of authentication and SSL contexts with associated match rules for outbound connections.
 
 REGISTERED BY:
   
@@ -15,7 +15,7 @@ SUPPORTS RUNTIME ONLY: false
 
 SERVICE PROVIDED:
 
-  CLASS: org.wildfly.security.authz.RoleDecoder
+  CLASS: org.wildfly.security.auth.client.AuthenticationContext
   MODULE: org.wildfly.security.elytron
 
 CUSTOM RUNTIME API:
