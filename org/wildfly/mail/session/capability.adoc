@@ -1,0 +1,21 @@
+NAME: org.wildfly.mail.session
+
+DESCRIPTION: Java Mail Session capability
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: javax.mail.Session
+  MODULE: JRE
+
+
