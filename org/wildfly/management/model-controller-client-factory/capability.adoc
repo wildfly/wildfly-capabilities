@@ -1,0 +1,24 @@
+NAME: org.wildfly.management.model-controller-client-factory
+
+DESCRIPTION: Provides a factory for creating local, in-vm management clients
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.controller.ModelControllerClientFactory
+  MODULE: org.jboss.as.controller
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A

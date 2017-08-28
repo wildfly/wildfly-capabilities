@@ -30,10 +30,15 @@ org.wildfly.io.max-threads
 org.wildfly.io.worker
 org.wildfly.jsr77
 org.wildfly.management.deployment-scanner
+org.wildfly.management.executor
 org.wildfly.management.http_interface
 org.wildfly.management.jmx
 org.wildfly.management.jmx.remote
+org.wildfly.management.model-controller-client-factory
 org.wildfly.management.native_interface
+org.wildfly.management.notification-handler-registry
+org.wildfly.management.path
+org.wildfly.management.path-manager
 org.wildfly.messaging.activemq.server
 org.wildfly.network.interface
 org.wildfly.network.outbound-socket-binding

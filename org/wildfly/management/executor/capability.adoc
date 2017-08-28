@@ -1,0 +1,24 @@
+NAME: org.wildfly.management.executor
+
+DESCRIPTION: Provides an executor service that can be used for running management-related tasks asynchronously. This executor is not meant to be used for tasks unrelated to management; e.g. for ordinary application request handling. The executor is configured with no task queue and no maximum number of threads; i.e. the user of the executor should assume submitting a task will result in a new thread being allocated. To promote thread reuse the executor may (likely will) have a small core pool and a short lifespan for non-core threads, but this is not part of the contract of this capability.
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: java.util.concurrent.ExecutorService
+  MODULE: N/A
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
