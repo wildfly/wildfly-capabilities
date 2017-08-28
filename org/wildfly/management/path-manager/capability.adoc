@@ -1,0 +1,24 @@
+NAME: org.wildfly.management.path-manager
+
+DESCRIPTION: Provides a mechanism for resolving logical paths configured in the WildFly management model and for getting notifications when changes are made to the configuration of those paths. Such notifications can be used to trigger a requirement for reload or restart of a server if a the configuration of a path changes or is removed.
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.controller.services.path.PathManager
+  MODULE: org.jboss.as.controller
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A

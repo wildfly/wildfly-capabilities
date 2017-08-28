@@ -1,0 +1,24 @@
+NAME: org.wildfly.management.notification-handler-registry
+
+DESCRIPTION: Provides a registry for registering and unregistering listeners for management notifications
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.controller.notification.NotificationHandlerRegistry
+  MODULE: org.jboss.as.controller
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A

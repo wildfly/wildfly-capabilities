@@ -1,0 +1,27 @@
+NAME: org.wildfly.undertow.sso
+
+DESCRIPTION: Undertow web server SSO interface, provides SSO support to deployments of the host
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.undertow.SingleSignOnService
+  MODULE: org.wildfly.extension.undertow
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.undertow
+  DYNAMIC: false
+
+
+
