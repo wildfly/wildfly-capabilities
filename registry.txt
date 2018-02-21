@@ -56,12 +56,12 @@ org.wildfly.security.credential-store
 org.wildfly.security.dir-context
 org.wildfly.security.http-authentication-factory
 org.wildfly.security.http-server-mechanism-factory
-oef.wildfly.security.jacc-policy
+org.wildfly.security.jacc-policy
 org.wildfly.security.key-manager
 org.wildfly.security.key-store
 org.wildfly.security.modifiable-security-realm
 org.wildfly.security.permission-mapper
-oef.wildfly.security.policy
+org.wildfly.security.policy
 org.wildfly.security.principal-decoder
 org.wildfly.security.principal-transformer
 org.wildfly.security.providers
