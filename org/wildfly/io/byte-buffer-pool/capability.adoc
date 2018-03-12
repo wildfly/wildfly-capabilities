@@ -1,0 +1,25 @@
+NAME: org.wildfly.undertow.byte-buffer-pool
+
+DESCRIPTION: Provides undertow io.undertow.connector.ByteBufferPool instances
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: io.undertow.connector.ByteBufferPool
+  MODULE: io.undertow.core
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A
