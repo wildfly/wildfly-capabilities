@@ -1,0 +1,24 @@
+NAME: org.wildfly.clustering.infinispan.remote-cache-container-configuration
+
+DESCRIPTION: Provides the configuration of a HotRod-based remote Infinispan cache container.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.infinispan.client.hotrod.configuration.Configuration
+  MODULE: org.infinispan.client.hotrod
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A

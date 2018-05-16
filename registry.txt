@@ -10,6 +10,8 @@ org.wildfly.clustering.infinispan.cache-container-configuration
 org.wildfly.clustering.infinispan.default-cache
 org.wildfly.clustering.infinispan.default-cache-configuration
 org.wildfly.clustering.infinispan.key-affinity-factory
+org.wildfly.clustering.infinispan.remote-cache-container
+org.wildfly.clustering.infinispan.remote-cache-container-configuration
 org.wildfly.clustering.jgroups.channel
 org.wildfly.clustering.jgroups.channel-factory
 org.wildfly.clustering.jgroups.channel-module
