@@ -1,0 +1,27 @@
+NAME: org.wildfly.mod_cluster.service
+
+DESCRIPTION: Provides mod_cluster service capability as a managed bean. The dynamic part of the capability corresponds to the proxy (configuration) name.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.modcluster.ModClusterServiceMBean
+  MODULE: org.jboss.modcluster
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.undertow.listener
+  DYNAMIC: true
+
+  NAME: org.wildfly.security.ssl-context
+  DYNAMIC: true
