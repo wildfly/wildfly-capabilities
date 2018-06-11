@@ -1,0 +1,33 @@
+NAME: org.wildfly.logging.handler
+
+DESCRIPTION: This capability does not expose any services. This is used to wire handlers for model integrity. For logging profiles this capability has two dynamic name portions. The name of the logging profile and the name of the resource itself.
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  None
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.management.path
+  DYNAMIC: true
+  DESCRIPTION: Used on file handlers when the `relative-to` attribute is defined.
+
+RUNTIME ONLY REQUIREMENTS:
