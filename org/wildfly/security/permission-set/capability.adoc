@@ -1,0 +1,31 @@
+NAME: org.wildfly.security.permission-set
+
+DESCRIPTION: A set of permissions.
+
+REGISTERED BY:
+  
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: java.security.Permissions
+  MODULE: javax.api
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+OPTIONAL REQUIREMENTS:
+
+RUNTIME ONLY REQUIREMENTS:
+

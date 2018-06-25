@@ -63,6 +63,7 @@ org.wildfly.security.key-manager
 org.wildfly.security.key-store
 org.wildfly.security.modifiable-security-realm
 org.wildfly.security.permission-mapper
+org.wildfly.security.permission-set
 org.wildfly.security.policy
 org.wildfly.security.principal-decoder
 org.wildfly.security.principal-transformer
