@@ -43,6 +43,8 @@ org.wildfly.management.native_interface
 org.wildfly.management.notification-handler-registry
 org.wildfly.management.path
 org.wildfly.management.path-manager
+org.wildfly.messaging.activemq.broadcast-group
+org.wildfly.messaging.activemq.discovery-group
 org.wildfly.messaging.activemq.server
 org.wildfly.network.interface
 org.wildfly.network.outbound-socket-binding

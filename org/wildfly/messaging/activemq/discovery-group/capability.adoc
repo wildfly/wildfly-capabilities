@@ -1,0 +1,25 @@
+NAME: org.wildfly.messaging.activemq.discovery-group
+
+DESCRIPTION: Capability for ActiveMQ Artemis' DiscoveryGroup
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  N/A
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.clustering.default-command-dispatcher-factory
+  DYNAMIC: true
+  DESCRIPTION: If the discovery-group resource is configured to use JGroups, it
+    requires its  Default CommandDispatcherFactory.
