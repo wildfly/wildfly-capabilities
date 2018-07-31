@@ -1,6 +1,6 @@
 NAME: org.wildfly.mod_cluster
 
-DESCRIPTION: Main mod cluster capability
+DESCRIPTION: Provides mod_cluster service capability used to determine whether mod_cluster subsystem is available.
 
 REGISTERED BY:
   
@@ -20,8 +20,5 @@ SERVICE PROVIDED:
 
 HARD REQUIREMENTS:
 
-  NAME: org.wildfly.undertow.listener
-  DYNAMIC: true
-
-  NAME: org.wildfly.security.ssl-context
-  DYNAMIC: true
+  NAME: N/A
+  DYNAMIC: N/A
