@@ -58,6 +58,7 @@ org.wildfly.security.authentication-configuration
 org.wildfly.security.authentication-context
 org.wildfly.security.credential-store
 org.wildfly.security.dir-context
+org.wildfly.security.elytron
 org.wildfly.security.http-authentication-factory
 org.wildfly.security.http-server-mechanism-factory
 org.wildfly.security.jacc-policy
