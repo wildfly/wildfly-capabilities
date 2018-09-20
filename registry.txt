@@ -79,7 +79,7 @@ org.wildfly.security.sasl-authentication-factory
 org.wildfly.security.sasl-server-factory
 org.wildfly.security.security-domain
 org.wildfly.security.security-event-listener
-org.wildfly.security.security-factory-credential
+org.wildfly.security.security-factory.credential
 org.wildfly.security.security-realm
 org.wildfly.security.ssl-context
 org.wildfly.security.trust-manager
