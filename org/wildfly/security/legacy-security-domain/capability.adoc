@@ -1,0 +1,31 @@
+NAME: org.wildfly.security.legacy-security-domain
+
+DESCRIPTION: A legacy PicketBox SecurityDomain
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.security.plugins.SecurityDomainContext
+  MODULE: org.jboss.as.security
+
+CUSTOM RUNTIME API:
+
+HARD REQUIREMENTS:
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.clustering.infinispan.cache-container.security
+  DYNAMIC: false
+  DESCRIPTION: The Infinispan cache where the cache type is 'infinispan'.
+
+RUNTIME ONLY REQUIREMENTS:

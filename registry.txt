@@ -64,6 +64,7 @@ org.wildfly.security.http-server-mechanism-factory
 org.wildfly.security.jacc-policy
 org.wildfly.security.key-manager
 org.wildfly.security.key-store
+org.wildfly.security.legacy-security-domain
 org.wildfly.security.modifiable-security-realm
 org.wildfly.security.permission-mapper
 org.wildfly.security.permission-set
