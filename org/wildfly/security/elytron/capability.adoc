@@ -1,0 +1,32 @@
+NAME: org.wildfly.security.elytron
+
+DESCRIPTION: The WildFly Elytron subsystem.
+
+REGISTERED BY:
+  
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+CUSTOM RUNTIME API:
+
+HARD REQUIREMENTS:
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.security.authentication-context"
+  DYNAMIC: true
+  DESCRIPTION: The authentication context to be associated with all deployments.
+
+  NAME: org.wildfly.security.providers
+  DYNAMIC: true
+  DESCRIPTION: Java security providers to be registered.
+
+RUNTIME ONLY REQUIREMENTS:

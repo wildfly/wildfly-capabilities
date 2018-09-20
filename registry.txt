@@ -58,11 +58,13 @@ org.wildfly.security.authentication-configuration
 org.wildfly.security.authentication-context
 org.wildfly.security.credential-store
 org.wildfly.security.dir-context
+org.wildfly.security.elytron
 org.wildfly.security.http-authentication-factory
 org.wildfly.security.http-server-mechanism-factory
 org.wildfly.security.jacc-policy
 org.wildfly.security.key-manager
 org.wildfly.security.key-store
+org.wildfly.security.legacy-security-domain
 org.wildfly.security.modifiable-security-realm
 org.wildfly.security.permission-mapper
 org.wildfly.security.permission-set
@@ -77,7 +79,7 @@ org.wildfly.security.sasl-authentication-factory
 org.wildfly.security.sasl-server-factory
 org.wildfly.security.security-domain
 org.wildfly.security.security-event-listener
-org.wildfly.security.security-factory-credential
+org.wildfly.security.security-factory.credential
 org.wildfly.security.security-realm
 org.wildfly.security.ssl-context
 org.wildfly.security.trust-manager
