@@ -1,0 +1,31 @@
+NAME: org.wildfly.security.certificate-authority-account
+
+DESCRIPTION: A certificate authority account
+
+REGISTERED BY:
+  
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.security.x500.cert.acme.AcmeAccount
+  MODULE: org.wildfly.security.elytron
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+OPTIONAL REQUIREMENTS:
+
+RUNTIME ONLY REQUIREMENTS:
+
