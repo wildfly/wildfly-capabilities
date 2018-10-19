@@ -84,6 +84,8 @@ For a capability to support use as a runtime-only requirement, it must guarantee
 * A capability that supports runtime-only usage must ensure that it never removes its runtime service except via a full process reload.
 * A capability that exposes a custom integration API generally is not usable as a runtime-only requirement. If such a capability does support use as a runtime-only requirement, it must ensure that any functionality provided via its integration API remains available as long as a full process reload has not occurred.
 
+Note that declaring support for use as a runtime-only requirement is part of the permanent contract of a capability, so it not should be done lightly. For example, the current implementation of a particular provider of a capability may require a full process reload in order to remove it, but other providers may not. Or, the particular provider requiring reload may be a current implementation detail but one that could be changed in the future. Declaring the capability supports runtime-only use precludes these possibilities.
+
 Private capabilities
 --------------------
 
