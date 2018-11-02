@@ -1,0 +1,19 @@
+NAME: org.wildfly.remoting.http-listener-registry
+
+DESCRIPTION: Provides a registry of all Undertow listeners, and the services that are registered on them.
+
+REGISTERED BY:
+  
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: io.undertow.server.ListenerRegistry
+  MODULE: io.undertow.core
