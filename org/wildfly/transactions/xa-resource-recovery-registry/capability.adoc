@@ -1,0 +1,19 @@
+NAME: org.wildfly.transactions.xa-resource-recovery-registry
+
+DESCRIPTION: Provides to access the recovery service
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.txn.service.ArjunaRecoveryManagerService
+  MODULE: org.jboss.as.transactions
