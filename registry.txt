@@ -57,6 +57,7 @@ org.wildfly.request-controller
 org.wildfly.sar-deployment
 org.wildfly.security.authentication-configuration
 org.wildfly.security.authentication-context
+org.wildfly.security.certificate-authority
 org.wildfly.security.certificate-authority-account
 org.wildfly.security.credential-store
 org.wildfly.security.dir-context
