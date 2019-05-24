@@ -61,6 +61,7 @@ org.wildfly.security.certificate-authority-account
 org.wildfly.security.credential-store
 org.wildfly.security.dir-context
 org.wildfly.security.elytron
+org.wildfly.security.evidence-decoder
 org.wildfly.security.http-authentication-factory
 org.wildfly.security.http-server-mechanism-factory
 org.wildfly.security.jacc-policy
