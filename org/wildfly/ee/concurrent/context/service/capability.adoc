@@ -1,0 +1,24 @@
+NAME: org.wildfly.ee.concurrent.context.service
+
+DESCRIPTION: Provides a ContextService, as specified by Concurrency Utilities for Java EE (JSR 236).
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.ee.concurrent.ContextServiceImpl
+  MODULE: org.jboss.as.ee
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A
