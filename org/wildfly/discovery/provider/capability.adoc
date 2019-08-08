@@ -1,0 +1,24 @@
+NAME: org.wildfly.discovery.provider
+
+DESCRIPTION: Provides a discovery provider.
+
+REGISTERED BY:
+  
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.discovery.spi.DiscoveryProvider
+  MODULE: org.wildfly.discovery
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
