@@ -1,0 +1,30 @@
+NAME: org.wildfly.ee.concurrent.thread-factory
+
+DESCRIPTION: Provides a ManagedThreadFactory, as specified by Concurrency Utilities for Java EE (JSR 236).
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.glassfish.enterprise.concurrent.ManagedThreadFactoryImpl
+  MODULE: org.jboss.as.ee
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.ee.concurrent.context.service
+  DYNAMIC: true
+  DESCRIPTION: a ManagedThreadFactory may optionally use a ContextService to provide its Thread's running context.

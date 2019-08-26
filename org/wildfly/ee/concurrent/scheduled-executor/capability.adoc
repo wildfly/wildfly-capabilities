@@ -1,0 +1,34 @@
+NAME: org.wildfly.ee.concurrent.scheduled-executor
+
+DESCRIPTION: Provides a ManagedScheduledExecutorService, as specified by Concurrency Utilities for Java EE (JSR 236).
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.glassfish.enterprise.concurrent.ManagedScheduledExecutorServiceAdapter
+  MODULE: org.jboss.as.ee
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A 
+  MODULE: N/A
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.ee.concurrent.context.service
+  DYNAMIC: true
+  DESCRIPTION: a ManagedScheduledExecutorService may optionally use a ContextService to provide its task execution's context.
+
+  NAME: org.wildfly.ee.concurrent.thread-factory
+  DYNAMIC: true
+  DESCRIPTION: a ManagedScheduledExecutorService may optionally use a ManagedThreadFactory to provide its task execution's threads.
