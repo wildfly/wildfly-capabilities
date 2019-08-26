@@ -15,7 +15,7 @@ SUPPORTS RUNTIME ONLY: false
 
 SERVICE PROVIDED:
 
-  CLASS: org.glassfish.enterprise.concurrent.ManagedThreadFactoryImpl
+  CLASS: org.jboss.as.ee.concurrent.ManagedThreadFactoryImpl
   MODULE: org.jboss.as.ee
 
 CUSTOM RUNTIME API:
