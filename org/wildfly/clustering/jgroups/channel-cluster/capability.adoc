@@ -1,0 +1,23 @@
+NAME: org.wildfly.clustering.jgroups.channel-cluster
+
+DESCRIPTION: Provides the cluster name of a JGroups channel.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: java.lang.String
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A

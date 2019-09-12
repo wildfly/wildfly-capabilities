@@ -1,0 +1,25 @@
+NAME: org.wildfly.clustering.default-group
+
+DESCRIPTION: Provides the default membership group of the server.
+This is either the membership of the default JGroups channel, or a singleton membership, if the JGroups subsystem is not present.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.clustering.group.Group
+  MODULE: org.wildfly.clustering.api
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
