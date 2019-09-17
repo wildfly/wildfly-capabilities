@@ -1,0 +1,24 @@
+NAME: org.wildfly.clustering.cache.registry-factory
+
+DESCRIPTION: Provides a factory for created a registry of member specific information backed by a given cache.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.clustering.registry.RegistryFactory
+  MODULE: org.wildfly.clustering.api
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A

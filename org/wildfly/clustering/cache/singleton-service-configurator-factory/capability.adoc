@@ -1,0 +1,24 @@
+NAME: org.wildfly.clustering.cache.singleton-service-configurator-factory
+
+DESCRIPTION: Provides a mechanism for installing singleton services, backed by a given cache.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.clustering.singleton.service.SingletonServiceConfiguratorFactory
+  MODULE: org.wildfly.clustering.singleton
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
