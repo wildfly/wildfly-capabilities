@@ -1,0 +1,19 @@
+NAME: org.wildfly.naming
+
+DESCRIPTION: Naming Server capability
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.naming.NamingStore
+  MODULE: org.jboss.as.naming
