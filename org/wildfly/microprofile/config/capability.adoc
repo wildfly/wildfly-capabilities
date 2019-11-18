@@ -1,0 +1,20 @@
+NAME: org.wildfly.microprofile.config
+
+DESCRIPTION: The presence of this capability in the capability registry indicates the presence of org.wildfly.extension.microprofile.config-smallrye subsystem in the server.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.weld
+  DYNAMIC: false
+

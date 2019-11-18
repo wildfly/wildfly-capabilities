@@ -1,0 +1,24 @@
+NAME: org.wildfly.microprofile.health.reporter
+
+DESCRIPTION: Provides the health reporter in charge of retrieving health check procedures known by the server.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.microprofile.health.HealthReporter
+  MODULE: org.wildfly.extension.microprofile.health-smallrye
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.weld
+  DYNAMIC: false

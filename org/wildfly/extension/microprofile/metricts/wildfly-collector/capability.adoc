@@ -1,0 +1,31 @@
+NAME: org.wildfly.extension.microprofile.metrics.wildfly-collector
+
+DESCRIPTION: Provides the metric collector in charge of retrieving metrics known by the server.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.microprofile.metrics.MetricsCollectorService
+  MODULE: org.wildfly.extension.microprofile.metrics-smallrye
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.management.model-controller-client-factory
+  DYNAMIC: false
+
+  NAME: org.wildfly.management.executor
+  DYNAMIC: false
+
+  NAME: org.wildfly.microprofile.config
+  DYNAMIC: false
+
