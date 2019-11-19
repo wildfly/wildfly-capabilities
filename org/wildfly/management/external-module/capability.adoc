@@ -1,0 +1,19 @@
+NAME: org.wildfly.management.external-module
+
+DESCRIPTION: Provides a service that can be used to add external modules.
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.server.moduleservice.ExternalModule
+  MODULE: org.jboss.as.server
