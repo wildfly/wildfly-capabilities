@@ -96,6 +96,7 @@ org.wildfly.undertow.host.location
 org.wildfly.undertow.http-invoker
 org.wildfly.undertow.http-invoker.host
 org.wildfly.undertow.listener
+org.wildfly.undertow.listener.http-upgrade-registry
 org.wildfly.undertow.mod_cluster_filter
 org.wildfly.undertow.reverse-proxy.host
 org.wildfly.undertow.server

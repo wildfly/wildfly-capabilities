@@ -1,0 +1,24 @@
+NAME: org.wildfly.undertow.listener.http-upgrade-registry
+
+DESCRIPTION: Registry of handlers for HTTP Upgrade
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: io.undertow.server.handlers.ChannelUpgradeHandler
+  MODULE: org.wildfly.extension.undertow
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
