@@ -1,0 +1,24 @@
+NAME: org.wildfly.extension.microprofile.metrics.http-context
+
+DESCRIPTION: Provides a MetricsContextService which is the service that manages the life cycle of the /health http context management handler that exposes the health information known by the server.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.wildfly.extension.microprofile.metrics.MetricsContextService
+  MODULE: org.wildfly.extension.microprofile.metrics-smallrye
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.management.http.extensible
+  DYNAMIC: false

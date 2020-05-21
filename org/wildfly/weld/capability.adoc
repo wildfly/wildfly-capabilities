@@ -1,0 +1,19 @@
+NAME: org.wildfly.weld
+
+DESCRIPTION: Provides an API that exposes the functionalities available on the Weld subsystem to the deployment units. E.g., the ability to check if a deployment unit was marked as Weld Deployment, the ability to register a CDI extension for a deployment unit.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+CUSTOM RUNTIME API:
+
+  CLASS: org.jboss.as.weld.WeldCapability
+  MODULE: org.jboss.as.weld.common
