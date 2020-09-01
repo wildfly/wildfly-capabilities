@@ -16,7 +16,7 @@ SUPPORTS RUNTIME ONLY: false
 SERVICE PROVIDED:
 
   CLASS: io.undertow.server.handlers.ChannelUpgradeHandler
-  MODULE: org.wildfly.extension.undertow
+  MODULE: io.undertow.core
 
 CUSTOM RUNTIME API:
 
