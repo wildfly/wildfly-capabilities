@@ -47,6 +47,8 @@ org.wildfly.management.path-manager
 org.wildfly.messaging.activemq.broadcast-group
 org.wildfly.messaging.activemq.discovery-group
 org.wildfly.messaging.activemq.server
+org.wildfly.naming
+org.wildfly.naming.remote
 org.wildfly.network.interface
 org.wildfly.network.outbound-socket-binding
 org.wildfly.network.socket-binding
