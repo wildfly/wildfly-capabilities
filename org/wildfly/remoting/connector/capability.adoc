@@ -13,8 +13,8 @@ SUPPORTS RUNTIME ONLY: false
 
 SERVICE PROVIDED:
 
-  CLASS: N/A
-  MODULE: N/A
+  CLASS: org.jboss.as.network.ProtocolSocketBinding
+  MODULE: org.jboss.as.network
 
 CUSTOM RUNTIME API:
 
