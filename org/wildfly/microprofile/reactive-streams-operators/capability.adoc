@@ -1,0 +1,19 @@
+NAME: org.wildfly.microprofile.reactive-streams-operators
+
+DESCRIPTION: The presence of this capability in the capability registry indicates the presence of org.wildfly.extension.microprofile.reactive-streams-operators-smallrye subsystem in the server.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.weld
+  DYNAMIC: false
