@@ -1,0 +1,19 @@
+NAME: org.wildfly.transactions.global-default-local-provider
+
+DESCRIPTION: Capability that indicates a local TransactionManager provider is present.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: Void
+  MODULE: N/A
