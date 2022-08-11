@@ -1,0 +1,20 @@
+NAME: org.wildfly.microprofile.fault-tolerance
+
+DESCRIPTION: The presence of this capability in the capability registry indicates the presence of org.wildfly.microprofile.fault-tolerance-smallrye subsystem in the server.
+
+REGISTERED BY:
+
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+HARD REQUIREMENTS:
+
+  NAME: org.wildfly.microprofile.config
+  DYNAMIC: false
+
