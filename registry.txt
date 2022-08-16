@@ -47,6 +47,7 @@ org.wildfly.management.path-manager
 org.wildfly.messaging.activemq.broadcast-group
 org.wildfly.messaging.activemq.discovery-group
 org.wildfly.messaging.activemq.server
+org.wildfly.microprofile.fault-tolerance
 org.wildfly.naming
 org.wildfly.naming.remote
 org.wildfly.network.interface
