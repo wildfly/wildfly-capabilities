@@ -91,6 +91,7 @@ org.wildfly.security.security-factory.credential
 org.wildfly.security.security-realm
 org.wildfly.security.ssl-context
 org.wildfly.security.trust-manager
+org.wildfly.security.virtual-security-domain
 org.wildfly.undertow
 org.wildfly.undertow.application-security-domain
 org.wildfly.undertow.host

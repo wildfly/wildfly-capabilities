@@ -1,0 +1,31 @@
+NAME: org.wildfly.security.virtual-security-domain
+
+DESCRIPTION: A virtual Elytron SecurityDomain.
+
+REGISTERED BY:
+  
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: true
+
+PRIVATE: false
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.server.security.VirtualDomainMetaData
+  MODULE: org.jboss.as.server
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+OPTIONAL REQUIREMENTS:
+
+RUNTIME ONLY REQUIREMENTS:
+
