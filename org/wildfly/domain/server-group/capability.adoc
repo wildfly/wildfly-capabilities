@@ -1,3 +1,11 @@
+---
+layout: capability
+title:  "org.wildfly.domain.server-group"
+categories:
+  - management
+  - core
+  - domain-mode
+---
 NAME: org.wildfly.domain.server-group
 
 DESCRIPTION: A WildFly managed domain server group configuration. Defines the common configuration for servers that belong to the group.

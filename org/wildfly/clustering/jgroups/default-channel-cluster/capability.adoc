@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.jgroups.default-channel-cluster"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.jgroups.default-channel-cluster
 
 DESCRIPTION: Provides the cluster name of the default JGroups channel of the server.

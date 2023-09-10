@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.undertow"
+categories:
+  - undertow
+---
 NAME: org.wildfly.undertow
 
 DESCRIPTION: Undertow entry point capability, main service

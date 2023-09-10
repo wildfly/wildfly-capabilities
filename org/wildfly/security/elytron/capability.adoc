@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.security.authentication-configuration"
+categories:
+  - elytron
+  - security
+---
 NAME: org.wildfly.security.elytron
 
 DESCRIPTION: The WildFly Elytron subsystem.

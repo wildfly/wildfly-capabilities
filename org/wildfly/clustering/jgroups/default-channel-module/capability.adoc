@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.jgroups.default-channel-module"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.jgroups.default-channel-module
 
 DESCRIPTION: Provides a module associated with the default JGroups channel.

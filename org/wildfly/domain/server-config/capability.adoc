@@ -1,3 +1,11 @@
+---
+layout: capability
+title:  "org.wildfly.domain.server-config"
+categories:
+  - management
+  - core
+  - domain-mode
+---
 NAME: org.wildfly.domain.server-config
 
 DESCRIPTION: A WildFly managed domain server launch configuration. Used by the Host Controller as its configuration for whether and how to manage a particular server.

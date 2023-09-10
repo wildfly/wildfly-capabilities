@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.remoting.outbound-connection"
+categories:
+  - remoting
+---
 NAME: org.wildfly.remoting.outbound-connection
 
 DESCRIPTION: Provides an outbound connection

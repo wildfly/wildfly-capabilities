@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.microprofile.fault-tolerance"
+categories:
+  - microprofile
+---
 NAME: org.wildfly.microprofile.fault-tolerance
 
 DESCRIPTION: The presence of this capability in the capability registry indicates the presence of org.wildfly.microprofile.fault-tolerance-smallrye subsystem in the server.

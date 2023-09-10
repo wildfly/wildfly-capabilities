@@ -1,3 +1,11 @@
+---
+layout: capability
+title:  "org.wildfly.mod_cluster"
+categories:
+  - clustering
+  - mod_cluster
+  - undertow
+---
 NAME: org.wildfly.mod_cluster
 
 DESCRIPTION: Provides mod_cluster service capability used to determine whether mod_cluster subsystem is available.

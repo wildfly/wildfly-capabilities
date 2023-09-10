@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.undertow.byte-buffer-pool"
+categories:
+  - undertow
+---
 NAME: org.wildfly.undertow.byte-buffer-pool
 
 DESCRIPTION: Provides undertow io.undertow.connector.ByteBufferPool instances

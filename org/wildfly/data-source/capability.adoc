@@ -1,3 +1,11 @@
+---
+layout: capability
+title:  "org.wildfly.data-source"
+categories:
+  - agroal
+  - datasource
+  - jca
+---
 NAME: org.wildfly.data-source
 
 DESCRIPTION: Provides a data source

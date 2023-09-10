@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.undertow.http-invoker"
+categories:
+  - ejb
+  - undertow
+---
 NAME: org.wildfly.undertow.http-invoker
 
 DESCRIPTION: Entry point for remote http invoker, supporting ejb over http

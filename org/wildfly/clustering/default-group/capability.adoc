@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.default-group"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.default-group
 
 DESCRIPTION: Provides the default membership group of the server.

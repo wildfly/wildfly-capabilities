@@ -1,3 +1,11 @@
+---
+layout: capability
+title:  "org.wildfly.io.worker"
+categories:
+  - ejb
+  - core
+  - undertow
+---
 NAME: org.wildfly.io.worker
 
 DESCRIPTION: Provides workers for I/O channel notification.

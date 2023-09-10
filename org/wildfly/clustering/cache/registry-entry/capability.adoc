@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.cache.registry-entry"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.cache.registry-entry
 
 DESCRIPTION: Provides a registry entry of member specific information designated for a given registry.

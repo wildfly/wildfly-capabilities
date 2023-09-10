@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.cache.default-registry"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.cache.default-registry
 
 DESCRIPTION: Provides a registry of member specific information backed by the default cache of a given cache container.

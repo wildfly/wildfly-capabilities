@@ -1,3 +1,12 @@
+---
+layout: capability
+title:  "org.wildfly.naming.remote"
+categories:
+  - ee
+  - ejb
+  - messaging
+  - transaction
+---
 NAME: org.wildfly.naming.remote
 
 DESCRIPTION: Remote connectivity to the naming server capability

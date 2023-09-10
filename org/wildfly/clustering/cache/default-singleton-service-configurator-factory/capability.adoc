@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.cache.default-singleton-service-configurator-factory"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.cache.default-singleton-service-configurator-factory
 
 DESCRIPTION: Provides a mechanism for installing singleton services, backed by the default cache of a given cache container.

@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.undertow.host.location"
+categories:
+  - undertow
+---
 NAME: org.wildfly.undertow.host.location
 
 DESCRIPTION: Provides location handler inside host
