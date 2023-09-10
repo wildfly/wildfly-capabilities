@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.singleton.default-policy"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.singleton.default-policy
 
 DESCRIPTION: Abstraction from which to build singleton MSC services.

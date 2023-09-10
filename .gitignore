@@ -1,2 +1,18 @@
-.idea/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+
+## Bundler
+vendor/
+.bundle/
+
+## IDE
+.settings
 .project
+.buildpath
+.idea
+*.iml
+
+## OS related
+*.DS_Store

@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.cache.default-service-provider-registry"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.cache.default-service-provider-registry
 
 DESCRIPTION: Provides a registry of service providers, backed by the default cache of a given cache container.

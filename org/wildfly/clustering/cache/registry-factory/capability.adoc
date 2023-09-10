@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.cache.registry-factory"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.cache.registry-factory
 
 DESCRIPTION: Provides a factory for created a registry of member specific information backed by a given cache.

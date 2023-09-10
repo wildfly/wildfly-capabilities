@@ -1,13 +1,17 @@
+---
+layout: base
+permalink: /project.html
+---
 WildFly Capabilities
 ====================
-http://wildfly.org
 
-This project provides the central registry of descriptive information about capabilities accessible via the management layer of a WildFly Core based process. The intent is to provide a central location where capability developers can go to learn about other capabilities available in the WildFly ecosystem and to advertise their capability. Most importantly, registering capabilities helps ensure that different capabilities won't use the same name.
+
+This project provides the central registry of descriptive information about capabilities accessible via the management layer of a [WildFly Core](http://github.com/wildfly/wildfly-core) based process. The intent is to provide a central location where capability developers can go to learn about other capabilities available in the WildFly ecosystem and to advertise their capability. Most importantly, registering capabilities helps ensure that different capabilities won't use the same name.
 
 Building
 ------------------
 
-This project does not produce a build. It is simply a registry of information.
+This project does not produce a artifact. It is simply a registry of information.
 
 Structure of the Registry
 -------------------------
@@ -32,7 +36,7 @@ Capability Names
 
 Capability names are simple strings, with the dot character serving as a separator to allow namespacing.
 
-The 'org.wildfly' namespace is reserved for projects associated with the WildFly organization on github (https://github.com/wildfly)
+The 'org.wildfly' namespace is reserved for projects associated with the [WildFly organization on github] (https://github.com/wildfly)
 
 The structure of this repository is based on the structure of capability names. The name is split based on the dot character and then each section becomes a directory in the repository. Each directory whose path from the repository root represents a complete capability name then includes a capability.adoc file describing that capability.
 
@@ -46,7 +50,7 @@ All dynamically named capabilities that have the same static portion of their na
 Services provided by a capability
 ---------------------------------
 
-Typically a capability functions by registering a service with the WildFly process' MSC ServiceContainer, and then dependent capabilities depend on that service. The WildFly Core management layer orchestrates registration of those services and service dependencies by providing a means to discover service names.
+Typically, a capability functions by registering a service with the WildFly process' MSC ServiceContainer, and then dependent capabilities depend on that service. The WildFly Core management layer orchestrates registration of those services and service dependencies by providing a means to discover service names.
 
 The capability.adoc entry for a capability should provide information about the service made available by the capability, if there is one.
 
@@ -84,18 +88,18 @@ For a capability to support use as a runtime-only requirement, it must guarantee
 * A capability that supports runtime-only usage must ensure that it never removes its runtime service except via a full process reload.
 * A capability that exposes a custom integration API generally is not usable as a runtime-only requirement. If such a capability does support use as a runtime-only requirement, it must ensure that any functionality provided via its integration API remains available as long as a full process reload has not occurred.
 
-Note that declaring support for use as a runtime-only requirement is part of the permanent contract of a capability, so it not should be done lightly. For example, the current implementation of a particular provider of a capability may require a full process reload in order to remove it, but other providers may not. Or, the particular provider requiring reload may be a current implementation detail but one that could be changed in the future. Declaring the capability supports runtime-only use precludes these possibilities.
+Note that declaring support for use as a runtime-only requirement is part of the permanent contract of a capability, so it should not be done lightly. For example, the current implementation of a particular provider of a capability may require a full process reload in order to remove it, but other providers may not. Or, the particular provider requiring reload may be a current implementation detail but one that could be changed in the future. Declaring the capability supports runtime-only use precludes these possibilities.
 
 Private capabilities
 --------------------
 
-A capability can be private if the project that registers it does not wish its services or custom integration API to be depended upon by others. Any service or custom integration API exposed by the capability can be changed at any time and it is not necessary to record information in this registry about such services or integration API. However, the capability itself should be recorded, including descriptive information about what it does and what requirements it may have. 
+A capability can be private if the project that registers it does not wish its services or custom integration API to be depended upon by others. Any service or custom integration API exposed by the capability can be changed at any time, and it is not necessary to record information in this registry about such services or integration API. However, the capability itself should be recorded, including descriptive information about what it does and what requirements it may have. 
 
 Private capabilities are useful because only a capability can depend upon another capability and use its services and integration API.  "Anonymous" code cannot require capabilities because that would result in users not being able to determine what functionality would be lost if a required capability were removed. However, just because code wishes to use another capability and is willing to register itself as doing so doesn't mean it is willing to publish a contract that other, unknown capabilities can rely upon.
 
 Private capabilities are allowed to provide services or a custom integration API for use by other capabilities controlled by the maintainer of the private capability. However the private capability implementation is free to change those at any time. This kind of usage scenario is analogous to typical use of package-protected Java methods.
 
-Contents of capability.adoc
+Contents of capability.adoc {#contents}
 --------------------------
 
 The following is information describing the contents of a capability.adoc file. See the template.adoc file in the repository root for context.

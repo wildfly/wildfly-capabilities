@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.management.deployment-scanner"
+categories:
+  - management
+  - core
+---
 NAME: org.wildfly.management.deployment-scanner
 
 DESCRIPTION: Provides a scanner to detect changes in a filesystem directory and based on those changes deploy or undeploy applications located in that directory.

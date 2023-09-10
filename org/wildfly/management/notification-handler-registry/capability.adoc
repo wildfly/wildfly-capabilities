@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.management.notification-handler-registry"
+categories:
+  - management
+  - core
+---
 NAME: org.wildfly.management.notification-handler-registry
 
 DESCRIPTION: Provides a registry for registering and unregistering listeners for management notifications

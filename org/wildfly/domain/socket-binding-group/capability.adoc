@@ -1,3 +1,11 @@
+---
+layout: capability
+title:  "org.wildfly.domain.socket-binding-group"
+categories:
+  - management
+  - core
+  - domain-mode
+---
 NAME: org.wildfly.domain.socket-binding-group
 
 DESCRIPTION: A WildFly managed domain socket binding group configuration. A socket binding group is a set of related server or outbound socket configurations.

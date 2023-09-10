@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.messaging.activemq.server"
+categories:
+  - messaging
+---
 NAME: org.wildfly.messaging.activemq.server
 
 DESCRIPTION: Provides integration with embedded ActiveMQ Artemis messaging broker.

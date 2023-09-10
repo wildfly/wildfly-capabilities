@@ -1,0 +1,55 @@
+<div class="about-page home-section">
+  <h1 class="title"><strong>Wild</strong>Fly Capabilities</h1>
+  <h2 class="page-subtitle">A central location for the formal description of the capabilities provided by a WildFly process</h2>
+  <h2>WildFly capabilities are described in <em>capability</em> documents
+    in the <a href="https://github.com/wildfly/wildfly-capabilities/blob/main/README.md#content">capabilities registry project</a>.
+    Each <a href="https://github.com/wildfly/wildfly-capabilities/blob/main/README.md#content">document</a> contains information
+    on how they are named, the service value type or runtime API they expose, other capabilities they require,
+    and other information about their use.</h2>
+    <h3>Capabilities can affect one or many categories. This page lists all categories and their respective capabilities.</h3>
+</div>
+
+
+  <div class="categories">
+
+  <h2 class="sec-title-teal">Categories</h2>
+  <ul>
+  {% for cat in site.data["wildfly-categories"].categories %}
+    <li><a href="#{{ cat.id }}">{{ cat.name }}</a></li>
+  {% endfor %}
+  </ul>
+  <ul>
+    <li><a href="#uncategorized">Uncategorized Capabilities</a></li>
+  </ul>
+
+  <hr />
+
+  <div>
+    {% for cat in site.data["wildfly-categories"].categories %}
+    <h2 id="{{ cat.id }}">{{ cat.name }} <small>[{{ cat.id }}]</small></a></h2>
+    <div class="description">{{ cat.description | markdownify }}</div>
+
+    {% for page in site.pages %}
+    <ul>
+      {% if page.categories contains cat.id %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+    </ul>
+    {% endfor %}
+    {% endfor %}
+  </div>
+
+  <div>
+    <h2 id="uncategorized">Uncategorized Capabilities</h2>
+
+    {% for page in site.pages %}
+    <ul>
+      {% unless page.categories %}
+      {% if page.title != nil and page.layout == "capability" %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+      {% endunless %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>

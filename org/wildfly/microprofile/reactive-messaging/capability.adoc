@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.microprofile.reactive-messaging"
+categories:
+  - microprofile
+---
 NAME: org.wildfly.microprofile.reactive-messaging
 
 DESCRIPTION: The presence of this capability in the capability registry indicates the presence of org.wildfly.extension.microprofile.reactive-messaging-smallrye subsystem in the server.

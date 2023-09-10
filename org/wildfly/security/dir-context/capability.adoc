@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.security.authentication-configuration"
+categories:
+  - elytron
+  - security
+---
 NAME: org.wildfly.security.dir-context
 
 DESCRIPTION: An ExceptionSupplier to obtain connected DirContext instances for access to LDAP.

@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.management.executor"
+categories:
+  - batch
+---
 NAME: org.wildfly.batch.job.repository
 
 DESCRIPTION: Provides a job repository used to store information about executed batch jobs.

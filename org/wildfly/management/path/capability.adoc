@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.management.path"
+categories:
+  - management
+  - core
+---
 NAME: org.wildfly.management.path
 
 DESCRIPTION: Provides the resolved value of a logical path configured in the WildFly management model. The resolved value is the string representation of a filesystem path. Users are encouraged not to use the service provided by this capability directly, but instead to use the org.wildfly.management.path-manager capability and take advantage of the ability it provides to receive notifications when path configurations change. This capability is primarily meant to be used to support model referential integrity in attributes whose value is the name of a path.
@@ -5,7 +12,7 @@ DESCRIPTION: Provides the resolved value of a logical path configured in the Wil
 REGISTERED BY:
 
   NAME: WildFly Core
-  URL:  https://github.com/wildfly/wildfly-core
+  URL:  link:https://github.com/wildfly/wildfly-core
 
 DYNAMIC: true
 

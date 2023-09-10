@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.mail.session"
+categories:
+  - mail
+---
 NAME: org.wildfly.mail.session
 
 DESCRIPTION: Java Mail Session capability
@@ -15,7 +21,7 @@ SUPPORTS RUNTIME ONLY: true
 
 SERVICE PROVIDED:
 
-  CLASS: javax.mail.Session
+  CLASS: jakarta.mail.Session
   MODULE: JRE
 
 

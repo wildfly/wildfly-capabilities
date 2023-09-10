@@ -1,3 +1,11 @@
+---
+layout: capability
+title:  "org.wildfly.undertow.host.access-log"
+categories:
+  - logging
+  - security
+  - undertow
+---
 NAME: org.wildfly.undertow.host.access-log
 
 DESCRIPTION: Provides access log inside a host

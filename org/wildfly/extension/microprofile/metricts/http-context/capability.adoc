@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.extension.microprofile.metrics.http-context"
+categories:
+  - microprofile
+  - observability
+---
 NAME: org.wildfly.extension.microprofile.metrics.http-context
 
 DESCRIPTION: Provides a MetricsContextService which is the service that manages the life cycle of the /health http context management handler that exposes the health information known by the server.

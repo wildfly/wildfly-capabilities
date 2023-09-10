@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.security.legacy-security-domain"
+categories:
+  - security
+---
 NAME: org.wildfly.security.legacy-security-domain
 
 DESCRIPTION: A legacy PicketBox SecurityDomain

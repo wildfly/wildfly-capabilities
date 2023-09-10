@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.infinispan.cache-container-configuration"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.infinispan.cache-container-configuration
 
 DESCRIPTION: Provides the configuration of an Infinispan cache container.

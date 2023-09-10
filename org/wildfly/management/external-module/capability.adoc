@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.management.external-module"
+categories:
+  - management
+  - core
+---
 NAME: org.wildfly.management.external-module
 
 DESCRIPTION: Provides a service that can be used to add external modules.

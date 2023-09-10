@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.batch.default.job.repository"
+categories:
+  - batch
+---
 NAME: org.wildfly.batch.default.job.repository
 
 DESCRIPTION: Provides a default job repository used to store information about executed batch jobs. The default job repository is assigned to deployments which do not use a deployment descriptor to define the job repository to use.

@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.microprofile.opentracing"
+categories:
+  - microprofile
+  - observability
+---
 NAME: org.wildfly.microprofile.opentracing
 
 DESCRIPTION: The presence of this capability in the capability registry indicates the presence of org.wildfly.extension.microprofile.opentracing-smallry subsystem in the server.
