@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.infinispan.default-cache-configuration"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.infinispan.default-cache-configuration
 
 DESCRIPTION: Provides the configuration of the default cache of an Infinispan cache container.

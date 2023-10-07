@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.microprofile.config"
+categories:
+  - microprofile
+---
 NAME: org.wildfly.microprofile.config
 
 DESCRIPTION: The presence of this capability in the capability registry indicates the presence of org.wildfly.extension.microprofile.config-smallrye subsystem in the server.

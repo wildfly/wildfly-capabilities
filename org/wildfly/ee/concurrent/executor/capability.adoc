@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.ee.concurrent.executor"
+categories:
+  - concurrency
+---
 NAME: org.wildfly.ee.concurrent.executor
 
 DESCRIPTION: Provides a ManagedExecutorService, as specified by Concurrency Utilities for Java EE (JSR 236).

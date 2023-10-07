@@ -1,3 +1,11 @@
+---
+layout: capability
+title:  "org.wildfly.domain.profile"
+categories:
+  - management
+  - core
+  - domain-mode
+---
 NAME: org.wildfly.domain.profile
 
 DESCRIPTION: A WildFly managed domain profile configuration. A profile is a set of related subsystem configurations that the servers in one or more server groups can use.

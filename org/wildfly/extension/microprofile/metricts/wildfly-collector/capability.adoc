@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.extension.microprofile.metrics.wildfly-collector"
+categories:
+  - microprofile
+  - observability
+---
 NAME: org.wildfly.extension.microprofile.metrics.wildfly-collector
 
 DESCRIPTION: Provides the metric collector in charge of retrieving metrics known by the server.

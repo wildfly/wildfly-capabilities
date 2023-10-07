@@ -1,4 +1,10 @@
-NAME: org.wildfly.clustering.jgroups.channel
+---
+layout: capability
+title:  "org.wildfly.clustering.jgroups.default-channel-source"
+categories:
+  - clustering
+---
+NAME: org.wildfly.clustering.jgroups.default-channel-source
 
 DESCRIPTION: Provides the factory from which the default JGroups channel was created.
 

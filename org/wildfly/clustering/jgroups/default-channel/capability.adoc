@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.jgroups.default-channel"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.jgroups.default-channel
 
 DESCRIPTION: Provides the default connected JGroups channel.

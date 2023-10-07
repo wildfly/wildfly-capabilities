@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.logging.logger"
+categories:
+  - logging
+  - core
+---
 NAME: org.wildfly.logging.logger
 
 DESCRIPTION: This capability does not expose any services. This is used to wire loggers for model integrity. For logging profiles this capability has two dynamic name portions. The name of the logging profile and the name of the resource itself.

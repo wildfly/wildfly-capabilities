@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.undertow.reverse-proxy.host"
+categories:
+  - undertow
+---
 NAME: org.wildfly.undertow.reverse-proxy.host
 
 DESCRIPTION: Reverse proxy host configuration

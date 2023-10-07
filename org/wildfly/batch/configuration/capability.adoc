@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.batch.configuration"
+categories:
+  - batch
+---
 NAME: org.wildfly.batch.configuration
 
 DESCRIPTION: Provides information for the batch runtime about the default job repository, default thread pool and whether or not batch jobs should be restarted if they were stopped during a suspend operation.

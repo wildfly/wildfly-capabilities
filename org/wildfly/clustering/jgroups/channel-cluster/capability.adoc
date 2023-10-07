@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.jgroups.channel-cluster"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.jgroups.channel-cluster
 
 DESCRIPTION: Provides the cluster name of a JGroups channel.
