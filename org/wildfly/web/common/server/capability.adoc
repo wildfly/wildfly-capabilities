@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.web.common.server"
+categories:
+  - ee
+---
 NAME: org.wildfly.web.common.server
 
 DESCRIPTION: Common web server interface to be used by subsystems that need to deploy any web related context

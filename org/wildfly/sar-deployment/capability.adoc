@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.sar-deployment"
+categories:
+  - sar
+---
 NAME: org.wildfly.sar-deployment
 
 DESCRIPTION: Ability to deploy JMX-based Service Archive (.sar) deployments

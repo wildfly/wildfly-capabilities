@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.naming"
+categories:
+  - ee
+---
 NAME: org.wildfly.naming
 
 DESCRIPTION: Naming Server capability

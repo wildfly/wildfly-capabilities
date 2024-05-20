@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.undertow.sso"
+categories:
+  - security
+  - undertow
+---
 NAME: org.wildfly.undertow.sso
 
 DESCRIPTION: Undertow web server SSO interface, provides SSO support to deployments of the host

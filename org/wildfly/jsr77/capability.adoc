@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.jsr77"
+categories:
+  - ee
+---
 NAME: org.wildfly.jsr77
 
 DESCRIPTION: JSR-77 Support

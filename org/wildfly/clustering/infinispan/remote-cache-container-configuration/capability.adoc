@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.infinispan.remote-cache-container-configuration"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.infinispan.remote-cache-container-configuration
 
 DESCRIPTION: Provides the configuration of a HotRod-based remote Infinispan cache container.

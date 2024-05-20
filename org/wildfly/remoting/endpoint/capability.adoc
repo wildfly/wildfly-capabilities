@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.remoting.endpoint"
+categories:
+  - remoting
+---
 NAME: org.jboss.remoting.endpoint
 
 DESCRIPTION: Provides a JBoss Remoting endpoint, a potential participant in a JBoss Remoting communications relationship.

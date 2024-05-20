@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.cache.group"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.cache.group
 
 DESCRIPTION: Provides a membership group of a cache.

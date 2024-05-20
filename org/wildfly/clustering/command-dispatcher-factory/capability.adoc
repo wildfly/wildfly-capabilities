@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.command-dispatcher-factory"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.command-dispatcher-factory
 
 DESCRIPTION: Provides a factory for creating a command dispatcher.

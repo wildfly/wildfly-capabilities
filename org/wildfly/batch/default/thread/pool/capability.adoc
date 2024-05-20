@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.batch.default.thread.pool"
+categories:
+  - batch
+---
 NAME: org.wildfly.batch.default.thread.pool
 
 DESCRIPTION: Provides a default thread-pool executor for batch jobs. The default thread-pool is used to assign the executor to deployments that do not use a deployment descriptor to define the thread-pool to use.

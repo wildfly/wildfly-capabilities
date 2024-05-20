@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.weld"
+categories:
+  - weld
+---
 NAME: org.wildfly.weld
 
 DESCRIPTION: Provides an API that exposes the functionalities available on the Weld subsystem to the deployment units. E.g., the ability to check if a deployment unit was marked as Weld Deployment, the ability to register a CDI extension for a deployment unit.

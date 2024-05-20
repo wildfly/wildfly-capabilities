@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.infinispan.key-affinity-factory"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.infinispan.key-affinity-factory
 
 DESCRIPTION: Provides a factory for creating a key affinity service.

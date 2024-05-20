@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.remoting.http-listener-registry"
+categories:
+  - remoting
+---
 NAME: org.wildfly.remoting.http-listener-registry
 
 DESCRIPTION: Provides a registry of all Undertow listeners, and the services that are registered on them.

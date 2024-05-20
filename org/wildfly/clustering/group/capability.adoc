@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.clustering.group"
+categories:
+  - clustering
+---
 NAME: org.wildfly.clustering.group
 
 DESCRIPTION: Provides the membership group of a cluster.

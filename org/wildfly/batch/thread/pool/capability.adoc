@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.batch.thread.pool"
+categories:
+  - batch
+---
 NAME: org.wildfly.batch.thread.pool
 
 DESCRIPTION: Provides a thread-pool executor for batch jobs. This executor is used to submit batch job tasks and ensure the thread-pool doesn't exhaust the available threads for partitioned jobs.

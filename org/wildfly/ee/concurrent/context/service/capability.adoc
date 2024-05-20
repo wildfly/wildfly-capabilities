@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.ee.concurrent.context.service"
+categories:
+  - concurrency
+---
 NAME: org.wildfly.ee.concurrent.context.service
 
 DESCRIPTION: Provides a ContextService, as specified by Concurrency Utilities for Java EE (JSR 236).

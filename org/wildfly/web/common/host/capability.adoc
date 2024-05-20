@@ -1,3 +1,9 @@
+---
+layout: capability
+title:  "org.wildfly.web.common.host"
+categories:
+  - undertow
+---
 NAME: org.wildfly.web.common.host
 
 DESCRIPTION: Common web host interface to be used by subsystems that need to deploy any web related context

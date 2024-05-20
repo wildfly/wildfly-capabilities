@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.undertow.http-invoker.host"
+categories:
+  - ejb
+  - undertow
+---
 NAME: org.wildfly.undertow.http-invoker.host
 
 DESCRIPTION: Http invoker host configuration

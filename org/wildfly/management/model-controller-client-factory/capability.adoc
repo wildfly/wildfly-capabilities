@@ -1,3 +1,10 @@
+---
+layout: capability
+title:  "org.wildfly.management.model-controller-client-factory"
+categories:
+  - management
+  - core
+---
 NAME: org.wildfly.management.model-controller-client-factory
 
 DESCRIPTION: Provides a factory for creating local, in-vm management clients
