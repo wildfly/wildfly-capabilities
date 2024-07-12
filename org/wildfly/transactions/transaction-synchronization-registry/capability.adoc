@@ -1,0 +1,19 @@
+NAME: org.wildfly.transactions.transaction-synchronization-registry
+
+DESCRIPTION: Provides access to the special TransactionSynchronizationRegistry impl that ensures proper ordering between JCA and other synchronizations.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.txn.service.TransactionSynchronizationRegistryService
+  MODULE: org.jboss.as.transactions
