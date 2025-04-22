@@ -11,7 +11,21 @@ This project provides the central registry of descriptive information about capa
 Building
 ------------------
 
-This project does not produce a artifact. It is simply a registry of information.
+This project does not produce a Java artifact. It is simply a registry of information. It does, however, produce a site using
+[Roq](https://iamroq.com), a Quarkus-based static site generator. To build the site locally, run
+
+```
+$ ./mvnw quarkus:dev
+```
+
+To generate a publishable site, run
+
+```
+$ export QUARKUS_ROQ_GENERATOR_BATCH=true
+$ ./mvnw package quarkus:run
+```
+
+You will find the build site in `target/roq`.
 
 Structure of the Registry
 -------------------------
@@ -26,7 +40,7 @@ Capabilities
 
 A capability is a piece of functionality used in a WildFly Core based process that is exposed via the WildFly Core management layer. Capabilities may depend on other capabilities, and this interaction between capabilities is mediated by the WildFly Core management layer.
 
-Some capabilities are automatically part of a WildFly Core based process, but in most cases the configuration provided by the end user (i.e. in standalone.xml, domain.xml and host.xml) determines what capabilities are present at runtime. It is the responsibility of the handlers for management operations to register capabilities and to register any requirements those capabilities may have for the presence of other capabilities. 
+Some capabilities are automatically part of a WildFly Core based process, but in most cases the configuration provided by the end user (i.e. in standalone.xml, domain.xml and host.xml) determines what capabilities are present at runtime. It is the responsibility of the handlers for management operations to register capabilities and to register any requirements those capabilities may have for the presence of other capabilities.
 
 * Capabilities vs modules: A JBoss Modules module is the means of making resources available to the classloading system of a WildFly Core based process. To make a capability available, you must package its resources in one or more modules and make them available to the classloading system. But a module is not a capability in and of itself, and simply copying a module to a WildFly installation does not mean a capability is available. Modules can include resources completely unrelated to management capabilities.
 * Capabilities vs Extensions: An extension is the means by which the WildFly Core management layer is made aware of manageable functionality that is not part of the WildFly Core kernel. The extension registers with the kernel new management resource types and handlers for operations on those resources. One of the things a handler can do is register or unregister a capability and its requirements. An extension may register a single capability, multiple capabilities, or possibly none at all. Further, not all capabilities are registered by extensions; the WildFly Core kernel itself may register a number of different capabilities.
@@ -93,7 +107,7 @@ Note that declaring support for use as a runtime-only requirement is part of the
 Private capabilities
 --------------------
 
-A capability can be private if the project that registers it does not wish its services or custom integration API to be depended upon by others. Any service or custom integration API exposed by the capability can be changed at any time, and it is not necessary to record information in this registry about such services or integration API. However, the capability itself should be recorded, including descriptive information about what it does and what requirements it may have. 
+A capability can be private if the project that registers it does not wish its services or custom integration API to be depended upon by others. Any service or custom integration API exposed by the capability can be changed at any time, and it is not necessary to record information in this registry about such services or integration API. However, the capability itself should be recorded, including descriptive information about what it does and what requirements it may have.
 
 Private capabilities are useful because only a capability can depend upon another capability and use its services and integration API.  "Anonymous" code cannot require capabilities because that would result in users not being able to determine what functionality would be lost if a required capability were removed. However, just because code wishes to use another capability and is willing to register itself as doing so doesn't mean it is willing to publish a contract that other, unknown capabilities can rely upon.
 
@@ -119,7 +133,7 @@ PRIVATE: True if the capability should not be used outside of its respective cod
 
 SUPPORTS RUNTIME ONLY: True if the capability can be depended upon by another capability as a runtime-only requirement. Must be 'false' if DYNAMIC is 'true'.
 
-SERVICE PROVIDED: Information about an MSC service registered by the capability which can be depended upon or injected by other capabilities, if there are any. 
+SERVICE PROVIDED: Information about an MSC service registered by the capability which can be depended upon or injected by other capabilities, if there are any.
 
 * CLASS: The fully qualified class name of the value type of the MSC Service
 * MODULE: The name of the jboss-modules module that typically provides the class
@@ -129,12 +143,12 @@ CUSTOM INTEGRATION API: Information about the custom integration API provided by
 * CLASS: The fully qualified class name of class that provides a custom API for interacting with the capability
 * MODULE: The name of the jboss-modules module that typically provides the class
 
-HARD REQUIREMENTS: Information about other capabilities that must be present if this capability is registered, if there are any. For each such capability the following should be provided: 
+HARD REQUIREMENTS: Information about other capabilities that must be present if this capability is registered, if there are any. For each such capability the following should be provided:
 
 * NAME: The static portion of the name of the required capability
 * DYNAMIC: True if the required capability is dynamically named
 
-OPTIONAL REQUIREMENTS: Information about other capabilities that must be present if some aspect of this capability's configuration is present, if there are any. For each such capability the following should be provided: 
+OPTIONAL REQUIREMENTS: Information about other capabilities that must be present if some aspect of this capability's configuration is present, if there are any. For each such capability the following should be provided:
 
 * NAME: The static portion of the name of the required capability
 * DYNAMIC: True if the required capability is dynamically named

@@ -1,0 +1,26 @@
+---
+layout: base
+---
+
+<div class="about-page home-section" style="border: 0;">
+    <h1 class="title"><a href="{site.url}" style="text-decoration: none; color: #fff">WildFly Capabilities</a></h1>
+    <h2 class="page-subtitle">{page.title}</h2>
+</div>
+
+<div class="post-page grid-wrapper">
+    <div class="grid__item width-10-12">
+        <div class="grid__item width-10-12 doc-content">
+            {! % unless pages.categories == empty % !}
+            <div style="padding-bottom: 2em;">In&nbsp;
+                {#for cat in page.data.categories}
+                <a href="{site.url}#{cat}">{cat}</a>
+                {/for}
+            </div>
+            {! % endunless % !}
+
+            <div class="paragraph">
+                {str:formatCapability(page.rawContent).raw}
+            </div>
+        </div>
+    </div>
+</div>
