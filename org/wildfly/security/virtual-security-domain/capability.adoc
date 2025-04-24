@@ -1,9 +1,16 @@
+---
+layout: capability
+title:  "org.wildfly.security.virtual-security-domain"
+categories:
+  - elytron
+  - security
+---
 NAME: org.wildfly.security.virtual-security-domain
 
 DESCRIPTION: A virtual Elytron SecurityDomain.
 
 REGISTERED BY:
-  
+
   NAME: WildFly Core
   URL:  https://github.com/wildfly/wildfly-core
 

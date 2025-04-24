@@ -1,6 +1,6 @@
 ---
 layout: capability
-title:  "org.wildfly.security.authentication-configuration"
+title:  "org.wildfly.security.realm-mapper"
 categories:
   - elytron
   - security
@@ -10,7 +10,7 @@ NAME: org.wildfly.security.realm-mapper
 DESCRIPTION: A mapper to map from a Principal or evidence to the name of the realm.
 
 REGISTERED BY:
-  
+
   NAME: WildFly Core
   URL:  https://github.com/wildfly/wildfly-core
 

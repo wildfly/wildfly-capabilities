@@ -1,6 +1,6 @@
 ---
 layout: capability
-title:  "org.wildfly.security.authentication-configuration"
+title:  "org.wildfly.security.certificate-authority"
 categories:
   - elytron
   - security
