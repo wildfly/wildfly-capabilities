@@ -1,6 +1,6 @@
 ---
 layout: capability
-title:  "org.wildfly.security.authentication-configuration"
+title:  "org.wildfly.security.trust-manager"
 categories:
   - elytron
   - security
@@ -10,7 +10,7 @@ NAME: org.wildfly.security.trust-manager
 DESCRIPTION: A JSSE TrustManager.
 
 REGISTERED BY:
-  
+
   NAME: WildFly Core
   URL:  https://github.com/wildfly/wildfly-core
 

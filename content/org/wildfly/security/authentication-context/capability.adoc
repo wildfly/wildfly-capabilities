@@ -10,7 +10,7 @@ NAME: org.wildfly.security.authentication-context
 DESCRIPTION: A collection of authentication and SSL contexts with associated match rules for outbound connections.
 
 REGISTERED BY:
-  
+
   NAME: WildFly Core
   URL:  https://github.com/wildfly/wildfly-core
 
