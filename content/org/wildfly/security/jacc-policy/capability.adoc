@@ -6,16 +6,16 @@ categories:
   - elytron
   - security
 ---
-NAME: org.wildfly.security.policy
+NAME: org.wildfly.security.jacc-policy
 
 DESCRIPTION: A JACC security Policy.
 
 REGISTERED BY:
-  
+
   NAME: WildFly Core
   URL:  https://github.com/wildfly/wildfly-core
 
-DYNAMIC: true
+DYNAMIC: false
 
 PRIVATE: false
 
