@@ -1,6 +1,6 @@
 ---
 layout: capability
-title:  "org.wildfly.security.authentication-configuration"
+title:  "org.wildfly.security.security-event-listener"
 categories:
   - elytron
   - security
@@ -10,7 +10,7 @@ NAME: org.wildfly.security.security-event-listener
 DESCRIPTION: A listener for security events emited by a SecurityDomain, typically used for auditing.
 
 REGISTERED BY:
-  
+
   NAME: WildFly Core
   URL:  https://github.com/wildfly/wildfly-core
 

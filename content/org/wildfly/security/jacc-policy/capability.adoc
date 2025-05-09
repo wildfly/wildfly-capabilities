@@ -1,6 +1,6 @@
 ---
 layout: capability
-title:  "org.wildfly.security.policy"
+title:  "org.wildfly.security.jacc-policy"
 categories:
   - ee
   - elytron
