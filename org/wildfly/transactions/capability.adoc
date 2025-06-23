@@ -1,0 +1,29 @@
+NAME: org.wildfly.transactions
+
+DESCRIPTION: Provides the transaction manager.
+
+REGISTERED BY:
+  
+  NAME: WildFly
+  URL:  https://github.com/wildfly/wildfly
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: true
+
+SERVICE PROVIDED:
+
+  CLASS: org.jboss.as.txn.service.TransactionManagerService
+  MODULE: org.jboss.as.transactions
+
+OPTIONAL REQUIREMENTS:
+
+  NAME: org.wildfly.remoting.endpoint
+  DYNAMIC: false
+  DESCRIPTION: Provides the remoting transaction service.
+
+  NAME: org.wildfly.undertow.http-invoker
+  DYNAMIC: false
+  DESCRIPTION: Provides the transaction service under the undertow http service.
