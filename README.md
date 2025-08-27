@@ -15,12 +15,14 @@ This project does not produce a Java artifact. It is simply a registry of inform
 [Roq](https://iamroq.com), a Quarkus-based static site generator. To build the site locally, run
 
 ```
+$ cd roq
 $ ./mvnw quarkus:dev
 ```
 
 To generate a publishable site, run
 
 ```
+$ cd roq
 $ export QUARKUS_ROQ_GENERATOR_BATCH=true
 $ ./mvnw package quarkus:run
 ```

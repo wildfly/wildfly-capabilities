@@ -15,8 +15,8 @@
         <skipITs>true</skipITs>
 
         <version.compiler-plugin>3.14.0</version.compiler-plugin>
-        <version.quarkus-roq>1.4.0</version.quarkus-roq>
-        <version.quarkus.platform>3.21.3</version.quarkus.platform>
+        <version.quarkus-roq>1.9.0</version.quarkus-roq>
+        <version.quarkus.platform>3.25.4</version.quarkus.platform>
         <version.surefire-plugin>3.5.2</version.surefire-plugin>
     </properties>
 
@@ -56,7 +56,55 @@
     </dependencies>
 
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.3.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
         <plugins>
+            <!--
+            Due to external links directly into the git repo, we need to maintain a certain FS structure. Specifically,
+            the capabilities files (org/wildfly/*) need to be in the root of the repo. The Roq build, however,
+            needs them to be under content/. To make this happen, the maven-resources-plugin is used to copy files
+            from ../org to content/org, and the maven-clean-plugin is configured to remove content/org to keep
+            things tidy and help prevent edits in the wrong directory.
+            -->
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.5.0</version>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>content/org</directory>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-resource-one</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>content/org</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>../org</directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>${quarkus.platform.group-id}</groupId>
                 <artifactId>quarkus-maven-plugin</artifactId>

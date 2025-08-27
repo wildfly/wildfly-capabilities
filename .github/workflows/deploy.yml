@@ -13,6 +13,7 @@ jobs:
       - name: Generate Roq Site
         uses: quarkiverse/quarkus-roq@v1
         with:
+          site-directory: roq/
           github-token: ${{ secrets.GITHUB_TOKEN }}   # Used to automatically get the GitHub Pages url
   deploy:
     environment:
