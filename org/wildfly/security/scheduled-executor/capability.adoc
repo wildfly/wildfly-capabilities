@@ -1,0 +1,38 @@
+---
+layout: capability
+title:  "org.wildfly.security.scheduled-executor"
+categories:
+  - elytron
+  - security
+---
+NAME: org.wildfly.security.scheduled-executor
+
+DESCRIPTION: A ScheduledExecutorService for use by the Elytron extension.
+
+REGISTERED BY:
+
+  NAME: WildFly Core
+  URL:  https://github.com/wildfly/wildfly-core
+
+DYNAMIC: false
+
+PRIVATE: true
+
+SUPPORTS RUNTIME ONLY: false
+
+SERVICE PROVIDED:
+
+  CLASS: ScheduledExecutorService
+  MODULE: javax.api
+
+CUSTOM RUNTIME API:
+
+  CLASS: N/A
+  MODULE: N/A
+
+HARD REQUIREMENTS:
+
+OPTIONAL REQUIREMENTS:
+
+RUNTIME ONLY REQUIREMENTS:
+
